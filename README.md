@@ -19,11 +19,16 @@ Turning raw data into meaningful business insights.
 <img src="./assets/contribution-heatmap.svg" width="900" alt="GitHub Contribution Heatmap">
 
 </div>
+
 ## 🛠️ Tech Stack
 
+<h3 align="center">📊 Analytics & Development</h3>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,python,github,git,vscode" height="55" />
+  <img src="https://skillicons.dev/icons?i=mysql,python,vscode" height="55" />
 </p>
+
+<h3 align="center">📈 Business Intelligence & Reporting</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logoColor=black" />
@@ -31,7 +36,11 @@ Turning raw data into meaningful business insights.
   <img src="https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logoColor=white" />
 </p>
 
-<br>
+<h3 align="center">🔧 Version Control</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github" height="55" />
+</p>
 
 ## 👨‍💻 About Me
 
