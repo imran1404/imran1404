@@ -1,1 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320">
 
+  <rect width="850" height="320" rx="15" fill="#0d1117"/>
+
+  <text x="35" y="50"
+        font-family="monospace"
+        font-size="18"
+        fill="#3fb950">
+    imran1404@github:~$ whoami
+  </text>
+
+  <text x="35" y="95"
+        font-family="monospace"
+        font-size="22"
+        font-weight="bold"
+        fill="#58a6ff">
+    Imran
+  </text>
+
+  <text x="35" y="135"
+        font-family="monospace"
+        font-size="17"
+        fill="#c9d1d9">
+    Aspiring Data Analyst
+  </text>
+
+  <text x="35" y="180"
+        font-family="monospace"
+        font-size="16"
+        fill="#8b949e">
+    SQL  •  Python  •  Excel  •  Power BI
+  </text>
+
+  <text x="35" y="225"
+        font-family="monospace"
+        font-size="16"
+        fill="#8b949e">
+    Building real-world analytics projects
+  </text>
+
+  <text x="35" y="275"
+        font-family="monospace"
+        font-size="18"
+        fill="#3fb950">
+    $
+  </text>
+
+</svg>
