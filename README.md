@@ -50,6 +50,19 @@
 
 <br>
 
+**What I Worked On**
+
+- Designed and queried a relational e-commerce database
+- Analyzed customer and product performance
+- Used JOINs to combine related business data
+- Applied CTEs and subqueries for complex analysis
+- Used Window Functions for ranking and comparative analysis
+- Converted raw transactional data into business-oriented insights
+
+<a href="https://github.com/imran1404/ecommerce-sales-analysis-sql-">
+  <img src="https://img.shields.io/badge/View_Project-238636?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
 ## 📬 Connect With Me
 
 <p align="center">
@@ -68,15 +81,37 @@
 
 </p>
 
-**What I Worked On**
 
-- Designed and queried a relational e-commerce database
-- Analyzed customer and product performance
-- Used JOINs to combine related business data
-- Applied CTEs and subqueries for complex analysis
-- Used Window Functions for ranking and comparative analysis
-- Converted raw transactional data into business-oriented insights
 
-<a href="https://github.com/imran1404/ecommerce-sales-analysis-sql-">
-  <img src="https://img.shields.io/badge/View_Project-238636?style=for-the-badge&logo=github&logoColor=white">
-</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
