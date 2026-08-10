@@ -1,7 +1,9 @@
+<div align="center">
+
 # Hi, I'm Imran 👋
 
 ### Aspiring Data Analyst
 
-SQL • Python • Excel • Power BI
+<img src="./assets/info-card.svg" width="850" alt="Imran Data Analyst Profile Card">
 
-Building real-world data analytics projects.
+</div>
