@@ -84,7 +84,15 @@
 
 </p>
 
+<br>
 
+<div align="center">
+
+### Thanks for visiting my profile 👋
+
+⭐ Feel free to explore my repositories and follow my data analytics journey.
+
+</div>
 
 
 
