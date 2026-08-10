@@ -1,8 +1,14 @@
 <div align="center">
 
-# Hi, I'm Imran 👋
+<h1 align="center">Hi 👋, I'm Mohammed Imran</h1>
 
-### Aspiring Data Analyst
+<h3 align="center">
+Data Analyst | SQL • Python • Excel • Power BI
+</h3>
+
+<p align="center">
+Turning raw data into meaningful business insights.
+</p>
 
 <img src="./assets/info-card.svg" width="850" alt="Imran Data Analyst Profile Card">
 
