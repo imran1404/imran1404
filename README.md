@@ -64,7 +64,7 @@ Turning raw data into meaningful business insights.
 
 <br>
 
-**What I Worked On**
+**What I Worked On** 
 
 - Designed and queried a relational e-commerce database
 - Analyzed customer and product performance
