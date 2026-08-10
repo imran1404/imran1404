@@ -48,6 +48,26 @@
 
 `MySQL` `SQL` `CTEs` `Window Functions` `JOINs` `Subqueries`
 
+<br>
+
+## 📬 Connect With Me
+
+<p align="center">
+
+<a href="www.linkedin.com/in/mohmmed-imran-data-analyst">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:mohammedimranm0414@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="YOUR_RESUME_LINK">
+  <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+</a>
+
+</p>
+
 **What I Worked On**
 
 - Designed and queried a relational e-commerce database
