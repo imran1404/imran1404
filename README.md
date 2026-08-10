@@ -39,7 +39,6 @@
 
 <br>
 
-## 🚀 Featured Projects
 
 ### 🛒 E-commerce Sales Analysis — SQL
 
