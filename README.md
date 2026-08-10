@@ -13,18 +13,43 @@
 <img src="./assets/contribution-heatmap.svg" width="900" alt="GitHub Contribution Heatmap">
 
 </div>
-<br>
-
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,python,github,git,vscode" height="50" />
+
+  <img src="https://skillicons.dev/icons?i=mysql" width="55" alt="MySQL" />
+  &nbsp;&nbsp;
+
+  <img src="https://skillicons.dev/icons?i=python" width="55" alt="Python" />
+  &nbsp;&nbsp;
+
+  <img src="https://skillicons.dev/icons?i=github" width="55" alt="GitHub" />
+  &nbsp;&nbsp;
+
+  <img src="https://skillicons.dev/icons?i=git" width="55" alt="Git" />
+  &nbsp;&nbsp;
+
+  <img src="https://skillicons.dev/icons?i=vscode" width="55" alt="VS Code" />
+
 </p>
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="50" alt="Power BI" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" height="50" alt="Excel" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/tableau/E97627" height="50" alt="Tableau" />
+
+  <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg"
+       width="55"
+       height="55"
+       alt="Power BI" />
+  &nbsp;&nbsp;
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/excel/excel-original.svg"
+       width="55"
+       height="55"
+       alt="Excel" />
+  &nbsp;&nbsp;
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tableau/tableau-original.svg"
+       width="55"
+       height="55"
+       alt="Tableau" />
+
 </p>
