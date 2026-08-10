@@ -24,3 +24,22 @@
   <img src="https://img.shields.io/badge/EXCEL-217346?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logoColor=white" />
 </p>
+
+<br>
+
+## 🚀 Featured Projects
+
+### 🛒 E-commerce Sales Analysis — SQL
+
+**Objective:** Analyze e-commerce sales data and extract meaningful business insights using SQL.
+
+**Tools:** MySQL, SQL
+
+**Key Work:**
+- Designed a relational e-commerce database
+- Used JOINs, CTEs, Subqueries, and Window Functions
+- Analyzed customers, products, orders, and sales performance
+- Practiced business-focused SQL queries
+
+🔗 **Project Repository:**  
+https://github.com/imran1404/ecommerce-sales-analysis-sql-
