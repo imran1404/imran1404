@@ -26,7 +26,15 @@
 </p>
 
 <br>
+<br>
 
+## 👨‍💻 About Me
+
+- 📊 Aspiring Data Analyst focused on turning raw data into actionable business insights
+- 🔍 Working with SQL, Python, Excel, Power BI, and Tableau
+- 🧠 Building strong foundations in data cleaning, analysis, visualization, and business problem-solving
+- 🚀 Developing end-to-end analytics projects for a professional portfolio
+- 📚 Continuously improving advanced SQL, Power BI, and Python skills
 ## 🚀 Featured Projects
 
 <br>
