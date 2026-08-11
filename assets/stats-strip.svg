@@ -1,3 +1,4 @@
+
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200"
      height="150"
@@ -15,7 +16,6 @@
     </linearGradient>
   </defs>
 
-  <!-- Main panel -->
   <rect
     x="1"
     y="1"
@@ -27,119 +27,76 @@
     stroke-width="2"
   />
 
-  <!-- Separators -->
   <line x1="200" y1="30" x2="200" y2="120" stroke="#1B2633"/>
   <line x1="400" y1="30" x2="400" y2="120" stroke="#1B2633"/>
   <line x1="600" y1="30" x2="600" y2="120" stroke="#1B2633"/>
   <line x1="800" y1="30" x2="800" y2="120" stroke="#1B2633"/>
   <line x1="1000" y1="30" x2="1000" y2="120" stroke="#1B2633"/>
 
-  <!-- Repositories -->
-  <text x="100" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
+  <text x="100" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
     Repositories
   </text>
 
-  <text x="100" y="95"
-        text-anchor="middle"
-        fill="#F0F6FC"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
+  <text x="100" y="95" text-anchor="middle"
+        fill="#F0F6FC" font-family="Segoe UI, Arial"
+        font-size="30" font-weight="700">
+    2
   </text>
 
-  <!-- Stars -->
-  <text x="300" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
+  <text x="300" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
     Stars
   </text>
 
-  <text x="300" y="95"
-        text-anchor="middle"
-        fill="#FF3347"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
+  <text x="300" y="95" text-anchor="middle"
+        fill="#FF3347" font-family="Segoe UI, Arial"
+        font-size="30" font-weight="700">
+    0
   </text>
 
-  <!-- Forks -->
-  <text x="500" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
+  <text x="500" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
     Forks
   </text>
 
-  <text x="500" y="95"
-        text-anchor="middle"
-        fill="#F0F6FC"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
+  <text x="500" y="95" text-anchor="middle"
+        fill="#F0F6FC" font-family="Segoe UI, Arial"
+        font-size="30" font-weight="700">
+    0
   </text>
 
-  <!-- Commits -->
-  <text x="700" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
-    Commits
-  </text>
-
-  <text x="700" y="95"
-        text-anchor="middle"
-        fill="#FF3347"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
-  </text>
-
-  <!-- Pull Requests -->
-  <text x="900" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
+  <text x="700" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
     Pull Requests
   </text>
 
-  <text x="900" y="95"
-        text-anchor="middle"
-        fill="#F0F6FC"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
+  <text x="700" y="95" text-anchor="middle"
+        fill="#FF3347" font-family="Segoe UI, Arial"
+        font-size="30" font-weight="700">
+    0
   </text>
 
-  <!-- Profile Views -->
-  <text x="1100" y="55"
-        text-anchor="middle"
-        fill="#A8B3C2"
-        font-family="Segoe UI, Arial"
-        font-size="17">
-    Profile Views
+  <text x="900" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
+    Followers
   </text>
 
-  <text x="1100" y="95"
-        text-anchor="middle"
-        fill="#2F81F7"
-        font-family="Segoe UI, Arial"
-        font-size="30"
-        font-weight="700">
-    --
+  <text x="900" y="95" text-anchor="middle"
+        fill="#F0F6FC" font-family="Segoe UI, Arial"
+        font-size="30" font-weight="700">
+    2
+  </text>
+
+  <text x="1100" y="55" text-anchor="middle"
+        fill="#A8B3C2" font-family="Segoe UI, Arial" font-size="17">
+    Status
+  </text>
+
+  <text x="1100" y="95" text-anchor="middle"
+        fill="#2F81F7" font-family="Segoe UI, Arial"
+        font-size="24" font-weight="700">
+    Building
   </text>
 
 </svg>
