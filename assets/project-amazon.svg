@@ -155,20 +155,20 @@
     DAX
   </text>
 
-  <!-- Excel -->
-  <rect x="1075" y="265"
-        width="85" height="48"
-        rx="12"
-        fill="#161B22"
-        stroke="#30363D"/>
+<!-- SQL -->
+<rect x="1075" y="265"
+      width="85" height="48"
+      rx="12"
+      fill="#161B22"
+      stroke="#30363D"/>
 
-  <text x="1117" y="296"
-        text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="17"
-        fill="#21A366">
-    Excel
-  </text>
+<text x="1117" y="296"
+      text-anchor="middle"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-size="17"
+      fill="#F0F6FC">
+  SQL
+</text>
 
   <!-- Business Value -->
   <text x="640" y="345"
