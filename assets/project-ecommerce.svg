@@ -179,12 +179,12 @@
     BUSINESS FOCUS
   </text>
 
-  <text x="640" y="378"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="19"
-        fill="#F0F6FC">
-    End-to-End Sales Analytics &amp; Business Intelligence Project
-  </text>
+<text x="640" y="378"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-size="19"
+      fill="#F0F6FC">
+  Turning raw e-commerce sales data into actionable insights.
+</text>
 
   <!-- Bottom Accent -->
   <rect x="60" y="407"
