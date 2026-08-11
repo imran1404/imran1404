@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="560" height="310" viewBox="0 0 560 310">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1017"/>
+      <stop offset="65%" stop-color="#0D141C"/>
+      <stop offset="100%" stop-color="#07101B"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="558" height="308" rx="16"
+        fill="url(#bg)"
+        stroke="#1F6FEB"
+        stroke-width="1.5"/>
+
+  <text x="28" y="42"
+        fill="#2F81F7"
+        font-family="Segoe UI, Arial"
+        font-size="24"
+        font-weight="700">
+    Tools &amp; Technologies
+  </text>
+
+  <line x1="28" y1="58" x2="190" y2="58"
+        stroke="#2F81F7"
+        stroke-width="3"/>
+
+  <!-- ROW 1 -->
+
+  <rect x="28" y="82" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="85" y="112" text-anchor="middle"
+        fill="#F0F6FC" font-size="22"
+        font-family="Segoe UI, Arial">SQL</text>
+
+  <text x="85" y="138" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Database</text>
+
+
+  <rect x="153" y="82" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="210" y="112" text-anchor="middle"
+        fill="#FFD43B" font-size="22"
+        font-family="Segoe UI, Arial">Python</text>
+
+  <text x="210" y="138" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Analysis</text>
+
+
+  <rect x="278" y="82" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="335" y="112" text-anchor="middle"
+        fill="#21A366" font-size="22"
+        font-family="Segoe UI, Arial">Excel</text>
+
+  <text x="335" y="138" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Analytics</text>
+
+
+  <rect x="403" y="82" width="125" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="465" y="112" text-anchor="middle"
+        fill="#F2C811" font-size="20"
+        font-family="Segoe UI, Arial">Power BI</text>
+
+  <text x="465" y="138" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Dashboard</text>
+
+
+  <!-- ROW 2 -->
+
+  <rect x="28" y="172" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="85" y="202" text-anchor="middle"
+        fill="#E97627" font-size="20"
+        font-family="Segoe UI, Arial">Tableau</text>
+
+  <text x="85" y="228" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Visualization</text>
+
+
+  <rect x="153" y="172" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="210" y="202" text-anchor="middle"
+        fill="#F0F6FC" font-size="20"
+        font-family="Segoe UI, Arial">GitHub</text>
+
+  <text x="210" y="228" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Version Control</text>
+
+
+  <rect x="278" y="172" width="115" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="335" y="202" text-anchor="middle"
+        fill="#23A8F2" font-size="20"
+        font-family="Segoe UI, Arial">VS Code</text>
+
+  <text x="335" y="228" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Development</text>
+
+
+  <rect x="403" y="172" width="125" height="75" rx="10"
+        fill="#111923" stroke="#263241"/>
+
+  <text x="465" y="202" text-anchor="middle"
+        fill="#F37626" font-size="20"
+        font-family="Segoe UI, Arial">Jupyter</text>
+
+  <text x="465" y="228" text-anchor="middle"
+        fill="#8B949E" font-size="13"
+        font-family="Segoe UI, Arial">Notebook</text>
+
+</svg>
