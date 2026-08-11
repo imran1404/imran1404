@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="560"
+     height="310"
+     viewBox="0 0 560 310">
+
+  <defs>
+    <linearGradient id="cardBg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1017"/>
+      <stop offset="60%" stop-color="#0D141C"/>
+      <stop offset="100%" stop-color="#07101C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect
+    x="1"
+    y="1"
+    width="558"
+    height="308"
+    rx="16"
+    fill="url(#cardBg)"
+    stroke="#1F6FEB"
+    stroke-width="1.5"
+  />
+
+  <!-- Heading -->
+  <text
+    x="28"
+    y="42"
+    fill="#2F81F7"
+    font-family="Segoe UI, Arial"
+    font-size="24"
+    font-weight="700">
+    Highlights
+  </text>
+
+  <line
+    x1="28"
+    y1="58"
+    x2="135"
+    y2="58"
+    stroke="#2F81F7"
+    stroke-width="3"
+  />
+
+  <!-- Highlight 1 -->
+  <circle cx="34" cy="92" r="4" fill="#2F81F7"/>
+  <text x="50" y="98"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Building end-to-end analytics projects
+  </text>
+
+  <!-- Highlight 2 -->
+  <circle cx="34" cy="128" r="4" fill="#2F81F7"/>
+  <text x="50" y="134"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Creating interactive dashboards
+  </text>
+
+  <!-- Highlight 3 -->
+  <circle cx="34" cy="164" r="4" fill="#2F81F7"/>
+  <text x="50" y="170"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Solving business problems with data
+  </text>
+
+  <!-- Highlight 4 -->
+  <circle cx="34" cy="200" r="4" fill="#2F81F7"/>
+  <text x="50" y="206"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Turning data into meaningful insights
+  </text>
+
+  <!-- Target decoration -->
+  <circle cx="460" cy="235" r="45"
+          fill="none"
+          stroke="#1F6FEB"
+          stroke-width="1.5"/>
+
+  <circle cx="460" cy="235" r="30"
+          fill="none"
+          stroke="#1F6FEB"
+          stroke-width="1.5"/>
+
+  <circle cx="460" cy="235" r="15"
+          fill="none"
+          stroke="#2F81F7"
+          stroke-width="2"/>
+
+  <circle cx="460" cy="235" r="5"
+          fill="#2F81F7"/>
+
+  <!-- Arrow -->
+  <line x1="460" y1="235"
+        x2="505" y2="190"
+        stroke="#2F81F7"
+        stroke-width="3"/>
+
+  <polygon
+    points="505,190 496,193 502,199"
+    fill="#2F81F7"
+  />
+
+</svg>
