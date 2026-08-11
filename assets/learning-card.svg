@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="560"
+     height="310"
+     viewBox="0 0 560 310">
+
+  <defs>
+    <linearGradient id="cardBg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+      <stop offset="0%" stop-color="#0A1017"/>
+      <stop offset="60%" stop-color="#0D141C"/>
+      <stop offset="100%" stop-color="#12080D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect
+    x="1"
+    y="1"
+    width="558"
+    height="308"
+    rx="16"
+    fill="url(#cardBg)"
+    stroke="#7A1F2B"
+    stroke-width="1.5"
+  />
+
+  <!-- Heading -->
+  <text
+    x="28"
+    y="42"
+    fill="#FF3347"
+    font-family="Segoe UI, Arial"
+    font-size="24"
+    font-weight="700">
+    Currently Learning
+  </text>
+
+  <line
+    x1="28"
+    y1="58"
+    x2="180"
+    y2="58"
+    stroke="#FF3347"
+    stroke-width="3"
+  />
+
+  <!-- Items -->
+
+  <circle cx="34" cy="92" r="4" fill="#FF3347"/>
+  <text x="50" y="98"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Advanced SQL
+  </text>
+
+  <circle cx="34" cy="128" r="4" fill="#FF3347"/>
+  <text x="50" y="134"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Python for Data Analysis
+  </text>
+
+  <circle cx="34" cy="164" r="4" fill="#FF3347"/>
+  <text x="50" y="170"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Data Modeling
+  </text>
+
+  <circle cx="34" cy="200" r="4" fill="#FF3347"/>
+  <text x="50" y="206"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Statistics &amp; Probability
+  </text>
+
+  <circle cx="34" cy="236" r="4" fill="#FF3347"/>
+  <text x="50" y="242"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Machine Learning Basics
+  </text>
+
+  <!-- Decorative learning icon -->
+  <circle
+    cx="460"
+    cy="210"
+    r="58"
+    fill="none"
+    stroke="#7A1F2B"
+    stroke-width="1.5"
+  />
+
+  <line
+    x1="430"
+    y1="210"
+    x2="490"
+    y2="210"
+    stroke="#FF3347"
+    stroke-width="2"
+  />
+
+  <line
+    x1="460"
+    y1="180"
+    x2="460"
+    y2="240"
+    stroke="#FF3347"
+    stroke-width="2"
+  />
+
+  <circle cx="460" cy="210" r="10"
+          fill="none"
+          stroke="#FF3347"
+          stroke-width="2"/>
+
+  <circle cx="430" cy="210" r="5" fill="#FF3347"/>
+  <circle cx="490" cy="210" r="5" fill="#FF3347"/>
+  <circle cx="460" cy="180" r="5" fill="#FF3347"/>
+  <circle cx="460" cy="240" r="5" fill="#FF3347"/>
+
+</svg>
