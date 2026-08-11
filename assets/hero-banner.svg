@@ -46,20 +46,6 @@
     Mohammed Imran
   </text>
 
-  <!-- Blinking cursor -->
-  <rect
-    x="420"
-    y="82"
-    width="5"
-    height="48"
-    fill="#FF3347">
-
-    <animate
-      attributeName="opacity"
-      values="1;0;1"
-      dur="0.9s"
-      repeatCount="indefinite"/>
-  </rect>
 
   <!-- Role -->
   <text
