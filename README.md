@@ -50,9 +50,9 @@
 
 <br>
 <p align="center">
-  <img src="./assets/project-amazon.svg"
-       width="100%"
-       alt="Amazon Sales Performance Dashboard">
+<img src="./assets/project-ecommerce.svg"
+     width="100%"
+     alt="E-Commerce Sales Performance Dashboard">
 </p>
 
 <br>
