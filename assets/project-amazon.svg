@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="440"
+     viewBox="0 0 1200 440">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="70%" stop-color="#101720"/>
+      <stop offset="100%" stop-color="#160D13"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#1F6FEB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Card -->
+  <rect x="2" y="2"
+        width="1196"
+        height="436"
+        rx="28"
+        fill="url(#bg)"
+        stroke="#30363D"
+        stroke-width="2"/>
+
+  <!-- Top Accent -->
+  <rect x="0" y="0"
+        width="1200"
+        height="6"
+        rx="3"
+        fill="url(#accent)"/>
+
+  <!-- Project Number -->
+  <text x="60" y="70"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="18"
+        font-weight="600"
+        fill="#E63946"
+        letter-spacing="2">
+    FEATURED PROJECT • 01
+  </text>
+
+  <!-- Project Title -->
+  <text x="60" y="125"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#F0F6FC">
+    Amazon Sales Performance Dashboard
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="165"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="21"
+        fill="#8B949E">
+    End-to-End Sales Analytics &amp; Business Intelligence Project
+  </text>
+
+  <!-- Divider -->
+  <line x1="60" y1="195"
+        x2="1140" y2="195"
+        stroke="#21262D"
+        stroke-width="2"/>
+
+  <!-- Left Section -->
+  <text x="60" y="240"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        font-weight="600"
+        fill="#1F6FEB">
+    ANALYTICS WORKFLOW
+  </text>
+
+  <text x="60" y="280"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="19"
+        fill="#F0F6FC">
+    ✓ Data Cleaning &amp; Transformation
+  </text>
+
+  <text x="60" y="315"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="19"
+        fill="#F0F6FC">
+    ✓ KPI Development
+  </text>
+
+  <text x="60" y="350"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="19"
+        fill="#F0F6FC">
+    ✓ Sales Trend &amp; Performance Analysis
+  </text>
+
+  <!-- Middle Divider -->
+  <line x1="590" y1="225"
+        x2="590" y2="370"
+        stroke="#21262D"
+        stroke-width="2"/>
+
+  <!-- Right Section -->
+  <text x="640" y="240"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        font-weight="600"
+        fill="#E63946">
+    TECH STACK
+  </text>
+
+  <!-- Power BI -->
+  <rect x="640" y="265"
+        width="135" height="48"
+        rx="12"
+        fill="#161B22"
+        stroke="#30363D"/>
+
+  <text x="707" y="296"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        fill="#F2C811">
+    Power BI
+  </text>
+
+  <!-- Power Query -->
+  <rect x="790" y="265"
+        width="155" height="48"
+        rx="12"
+        fill="#161B22"
+        stroke="#30363D"/>
+
+  <text x="867" y="296"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        fill="#2EA043">
+    Power Query
+  </text>
+
+  <!-- DAX -->
+  <rect x="960" y="265"
+        width="100" height="48"
+        rx="12"
+        fill="#161B22"
+        stroke="#30363D"/>
+
+  <text x="1010" y="296"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        fill="#1F6FEB">
+    DAX
+  </text>
+
+  <!-- Excel -->
+  <rect x="1075" y="265"
+        width="85" height="48"
+        rx="12"
+        fill="#161B22"
+        stroke="#30363D"/>
+
+  <text x="1117" y="296"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        fill="#21A366">
+    Excel
+  </text>
+
+  <!-- Business Value -->
+  <text x="640" y="345"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="17"
+        font-weight="600"
+        fill="#8B949E">
+    BUSINESS FOCUS
+  </text>
+
+  <text x="640" y="378"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="19"
+        fill="#F0F6FC">
+    Turning raw sales data into actionable insights.
+  </text>
+
+  <!-- Bottom Accent -->
+  <rect x="60" y="407"
+        width="1080"
+        height="3"
+        rx="2"
+        fill="url(#accent)"/>
+
+</svg>
