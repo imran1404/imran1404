@@ -15,27 +15,20 @@
 <br>
 
 
-## 🛠️ Tech Stack
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<h3 align="center">📊 Analytics & Development</h3>
+<img src="./assets/skills-card.svg" width="100%" alt="Data Analyst Skills">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,python,vscode" height="55" />
-</p>
+</td>
+<td width="50%" valign="top">
 
-<h3 align="center">📈 Business Intelligence & Reporting</h3>
+<img src="./assets/tools-card.svg" width="100%" alt="Tools and Technologies">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logoColor=black" />
-  <img src="https://img.shields.io/badge/EXCEL-217346?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logoColor=white" />
-</p>
-
-<h3 align="center">🔧 Version Control</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github" height="55" />
-</p>
+</td>
+</tr>
+</table>
 
 ## 👨‍💻 About Me
 
