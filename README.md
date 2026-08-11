@@ -14,8 +14,6 @@ Turning raw data into meaningful business insights.
 
 <br>
 
-### 📈 GitHub Activity
-
 
 </div>
 
