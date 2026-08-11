@@ -6,6 +6,15 @@
 
 <br>
 
+<p align="center">
+  <img src="./assets/stats-strip.svg"
+       width="100%"
+       alt="Mohammed Imran GitHub Statistics">
+</p>
+
+<br>
+
+
 ## 🛠️ Tech Stack
 
 <h3 align="center">📊 Analytics & Development</h3>
