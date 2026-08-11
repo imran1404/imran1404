@@ -30,6 +30,15 @@
 </tr>
 </table>
 
+<br>
+
+<p align="center">
+  <img src="./assets/learning-card.svg" width="49%" alt="Currently Learning" />
+  <img src="./assets/highlights-card.svg" width="49%" alt="Highlights" />
+</p>
+
+<br>
+
 ## 👨‍💻 About Me
 
 - 📊 Focused on data analysis, business intelligence, and data-driven decision-making
