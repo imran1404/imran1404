@@ -50,22 +50,24 @@
 
 <br>
 <p align="center">
-<img src="./assets/project-ecommerce.svg"
-     width="100%"
-     alt="E-Commerce Sales Performance Dashboard">
+  <a href="YOUR_PROJECT_01_REPOSITORY_URL">
+    <img src="./assets/project-ecommerce.svg"
+         width="100%"
+         alt="E-Commerce Sales Performance Dashboard">
+  </a>
 </p>
  
 <br>
 
-### 🛒 E-commerce Sales Analysis — SQL
-
-> A relational e-commerce analytics project built to analyze customers, products, orders, and sales performance using advanced SQL techniques.
-
-**Tech Stack**
-
-`MySQL` `SQL` `CTEs` `Window Functions` `JOINs` `Subqueries`
-
 <br>
+
+<p align="center">
+  <a href="YOUR_PROJECT_02_REPOSITORY_URL">
+    <img src="./assets/project-sql.svg"
+         width="100%"
+         alt="E-Commerce Sales Analysis SQL Project">
+  </a>
+</p>
 
 **What I Worked On** 
 
