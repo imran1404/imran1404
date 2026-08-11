@@ -16,7 +16,6 @@ Turning raw data into meaningful business insights.
 
 ### 📈 GitHub Activity
 
-<img src="./assets/contribution-heatmap.svg" width="900" alt="GitHub Contribution Heatmap">
 
 </div>
 
