@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="560"
+     height="310"
+     viewBox="0 0 560 310">
+
+  <defs>
+    <linearGradient id="cardBg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+      <stop offset="0%" stop-color="#0A1017"/>
+      <stop offset="60%" stop-color="#0D141C"/>
+      <stop offset="100%" stop-color="#12080D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect
+    x="1"
+    y="1"
+    width="558"
+    height="308"
+    rx="16"
+    fill="url(#cardBg)"
+    stroke="#7A1F2B"
+    stroke-width="1.5"
+  />
+
+  <!-- Heading -->
+  <text
+    x="28"
+    y="42"
+    fill="#FF3347"
+    font-family="Segoe UI, Arial"
+    font-size="24"
+    font-weight="700">
+    Skills
+  </text>
+
+  <!-- Accent line -->
+  <line
+    x1="28"
+    y1="58"
+    x2="110"
+    y2="58"
+    stroke="#FF3347"
+    stroke-width="3"
+  />
+
+  <!-- Skill 1 -->
+  <circle cx="34" cy="92" r="4" fill="#FF3347"/>
+  <text x="50" y="98"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Data Cleaning &amp; Wrangling
+  </text>
+
+  <!-- Skill 2 -->
+  <circle cx="34" cy="128" r="4" fill="#FF3347"/>
+  <text x="50" y="134"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Exploratory Data Analysis
+  </text>
+
+  <!-- Skill 3 -->
+  <circle cx="34" cy="164" r="4" fill="#FF3347"/>
+  <text x="50" y="170"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Data Visualization
+  </text>
+
+  <!-- Skill 4 -->
+  <circle cx="34" cy="200" r="4" fill="#FF3347"/>
+  <text x="50" y="206"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Dashboard Development
+  </text>
+
+  <!-- Skill 5 -->
+  <circle cx="34" cy="236" r="4" fill="#FF3347"/>
+  <text x="50" y="242"
+        fill="#D0D7DE"
+        font-family="Segoe UI, Arial"
+        font-size="17">
+    Business Insights &amp; Storytelling
+  </text>
+
+  <!-- Decorative analytics icon -->
+  <circle
+    cx="455"
+    cy="220"
+    r="58"
+    fill="none"
+    stroke="#7A1F2B"
+    stroke-width="1.5"
+    opacity="0.8"
+  />
+
+  <line x1="425" y1="245" x2="425" y2="210"
+        stroke="#FF3347" stroke-width="5"/>
+
+  <line x1="445" y1="245" x2="445" y2="190"
+        stroke="#FF3347" stroke-width="5"/>
+
+  <line x1="465" y1="245" x2="465" y2="175"
+        stroke="#FF3347" stroke-width="5"/>
+
+  <line x1="485" y1="245" x2="485" y2="200"
+        stroke="#FF3347" stroke-width="5"/>
+
+</svg>
