@@ -170,6 +170,21 @@
     Window Functions
   </text>
 
+     <!-- JOINs -->
+<rect x="840" y="265"
+      width="90" height="48"
+      rx="12"
+      fill="#161B22"
+      stroke="#30363D"/>
+
+<text x="885" y="296"
+      text-anchor="middle"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-size="16"
+      fill="#E63946">
+  JOINs
+</text>
+     
   <!-- Business Focus -->
   <text x="640" y="345"
         font-family="Segoe UI, Arial, sans-serif"
