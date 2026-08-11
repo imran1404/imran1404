@@ -33,10 +33,10 @@ jobs:
       - name: Generate heatmap SVG
         run: python scripts/render_heatmap_svg.py
 
-        - name: Generate GitHub stats
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run: python scripts/fetch_stats.py
+      - name: Generate GitHub stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fetch_stats.py
 
       - name: Commit updated files
         run: |
