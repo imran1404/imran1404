@@ -1,21 +1,10 @@
-<div align="center">
-
-<h1 align="center">Hi 👋, I'm Mohammed Imran</h1>
-
-<h3 align="center">
-Data Analyst | SQL • Python • Excel • Power BI
-</h3>
-
 <p align="center">
-Turning raw data into meaningful business insights.
+  <img src="./assets/hero-banner.svg"
+       width="100%"
+       alt="Mohammed Imran Data Analyst Hero Banner">
 </p>
 
-<img src="./assets/info-card.svg" width="850" alt="Imran Data Analyst Profile Card">
-
 <br>
-
-
-</div>
 
 ## 🛠️ Tech Stack
 
