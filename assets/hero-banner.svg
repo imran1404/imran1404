@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="420"
+     viewBox="0 0 1200 420">
+
+  <defs>
+    <linearGradient id="bg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+      <stop offset="0%" stop-color="#05090D"/>
+      <stop offset="55%" stop-color="#08111A"/>
+      <stop offset="100%" stop-color="#14080D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="420"
+    rx="18"
+    fill="url(#bg)"
+    stroke="#1B2633"
+    stroke-width="2"
+  />
+
+  <!-- Intro -->
+  <text
+    x="45"
+    y="55"
+    fill="#FF3347"
+    font-family="monospace"
+    font-size="18">
+    &lt; Hello, I'm /&gt;
+  </text>
+
+  <!-- Name -->
+  <text
+    x="45"
+    y="120"
+    fill="#F0F6FC"
+    font-family="Segoe UI, Arial"
+    font-size="48"
+    font-weight="700">
+    Mohammed Imran
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect
+    x="420"
+    y="82"
+    width="5"
+    height="48"
+    fill="#FF3347">
+
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.9s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Role -->
+  <text
+    x="45"
+    y="165"
+    fill="#FF3347"
+    font-family="Segoe UI, Arial"
+    font-size="26">
+    Aspiring Data Analyst
+  </text>
+
+  <!-- Location -->
+  <text
+    x="45"
+    y="205"
+    fill="#D0D7DE"
+    font-family="Segoe UI, Arial"
+    font-size="17">
+    Chennai, Tamil Nadu, India
+  </text>
+
+  <!-- Value statement -->
+  <text
+    x="320"
+    y="205"
+    fill="#D0D7DE"
+    font-family="Segoe UI, Arial"
+    font-size="17">
+    Turning Data into Decisions
+  </text>
+
+  <!-- Summary -->
+  <text
+    x="45"
+    y="250"
+    fill="#A8B3C2"
+    font-family="Segoe UI, Arial"
+    font-size="17">
+    Passionate about uncovering insights, building dashboards,
+  </text>
+
+  <text
+    x="45"
+    y="278"
+    fill="#A8B3C2"
+    font-family="Segoe UI, Arial"
+    font-size="17">
+    and solving real-world business problems with data.
+  </text>
+
+  <text
+    x="45"
+    y="306"
+    fill="#A8B3C2"
+    font-family="Segoe UI, Arial"
+    font-size="17">
+    Constantly learning. Continuously improving.
+  </text>
+
+  <!-- SQL panel -->
+  <rect
+    x="690"
+    y="55"
+    width="340"
+    height="155"
+    rx="12"
+    fill="#090E14"
+    stroke="#1B2633"
+  />
+
+  <text x="715" y="90"
+        fill="#FF3347"
+        font-family="monospace"
+        font-size="15">
+    SELECT skills
+  </text>
+
+  <text x="715" y="115"
+        fill="#F0F6FC"
+        font-family="monospace"
+        font-size="15">
+    FROM experience
+  </text>
+
+  <text x="715" y="140"
+        fill="#FF3347"
+        font-family="monospace"
+        font-size="15">
+    WHERE passion = 'Data'
+  </text>
+
+  <text x="715" y="165"
+        fill="#F0F6FC"
+        font-family="monospace"
+        font-size="15">
+    AND curiosity = 'Always';
+  </text>
+
+  <text x="715" y="190"
+        fill="#6E7B8B"
+        font-family="monospace"
+        font-size="14">
+    -- Always Building. Always Improving.
+  </text>
+
+  <!-- Red analytics line -->
+  <polyline
+    points="660,335 710,310 760,325 815,270 860,285 915,230 970,245 1030,185 1090,160 1150,90"
+    fill="none"
+    stroke="#FF3347"
+    stroke-width="3"/>
+
+  <!-- Blue analytics line -->
+  <polyline
+    points="640,360 700,345 770,360 835,330 900,350 960,315 1030,325 1090,285 1160,300"
+    fill="none"
+    stroke="#2F81F7"
+    stroke-width="1.5"
+    opacity="0.7"/>
+
+</svg>
