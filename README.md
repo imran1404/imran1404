@@ -49,7 +49,13 @@
 ## 🚀 Featured Projects
 
 <br>
+<p align="center">
+  <img src="./assets/project-amazon.svg"
+       width="100%"
+       alt="Amazon Sales Performance Dashboard">
+</p>
 
+<br>
 
 ### 🛒 E-commerce Sales Analysis — SQL
 
