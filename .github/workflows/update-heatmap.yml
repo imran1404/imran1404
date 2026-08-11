@@ -33,6 +33,11 @@ jobs:
       - name: Generate heatmap SVG
         run: python scripts/render_heatmap_svg.py
 
+        - name: Generate GitHub stats
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: python scripts/fetch_stats.py
+
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
@@ -40,6 +45,7 @@ jobs:
 
           git add data/contributions.json
           git add assets/contribution-heatmap.svg
+          git add assets/stats-strip.svg
 
           git diff --cached --quiet || git commit -m "Update contribution heatmap"
 
