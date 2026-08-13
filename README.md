@@ -30,6 +30,12 @@
 
 <br>
 
+<p align="center">
+  <img src="./assets/dashboard-footer.svg" width="100%" alt="Data Analyst Quote Footer">
+</p>
+
+<br>
+
 <div align="center">
 
   <h2>⚡ CONNECT WITH ME</h2>
@@ -64,8 +70,23 @@
   <code>OPEN TO OPPORTUNITIES</code>
 </p>
 
+
+<br>
+
 <p align="center">
-  <img src="./assets/dashboard-footer.svg" width="100%" alt="Data Analyst Quote Footer">
+  ──────────────────────── ◆ ────────────────────────
+</p>
+
+<p align="center">
+  <sub>
+    BUILT WITH DATA • DRIVEN BY CURIOSITY • EVOLVING WITH EVERY COMMIT
+  </sub>
+</p>
+
+<p align="center">
+  <sub>
+    © 2026 MOHAMMED IMRAN M
+  </sub>
 </p>
 
 <br>
