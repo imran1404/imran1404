@@ -1,67 +1,118 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300"
+<svg width="1200"
+     height="300"
+     viewBox="0 0 1200 300"
      xmlns="http://www.w3.org/2000/svg">
 
-<style>
-  .pop {
-    opacity: 0;
-    animation: popIn 0.7s ease-out forwards;
-  }
-
-  .delay1 { animation-delay: 0.2s; }
-  .delay2 { animation-delay: 0.6s; }
-  .delay3 { animation-delay: 1.0s; }
-  .delay4 { animation-delay: 1.4s; }
-  .delay5 { animation-delay: 1.8s; }
-
-  @keyframes popIn {
-    0% {
+  <style>
+    .pop {
       opacity: 0;
-      transform: translateY(18px);
+      animation: popIn 0.7s ease-out forwards;
     }
 
-    100% {
-      opacity: 1;
-      transform: translateY(0);
+    .delay1 { animation-delay: 0.2s; }
+    .delay2 { animation-delay: 0.6s; }
+    .delay3 { animation-delay: 1.0s; }
+    .delay4 { animation-delay: 1.4s; }
+    .delay5 { animation-delay: 1.8s; }
+
+    @keyframes popIn {
+      0% {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
-  }
-</style>
+  </style>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080C10"/>
-      <stop offset="55%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#14090B"/>
+
+    <linearGradient id="bg"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+      <stop offset="0%"
+            stop-color="#080C10"/>
+
+      <stop offset="55%"
+            stop-color="#0D1117"/>
+
+      <stop offset="100%"
+            stop-color="#14090B"/>
+
     </linearGradient>
 
-    <linearGradient id="redGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF2E38"/>
-      <stop offset="100%" stop-color="#B3131B"/>
+
+    <linearGradient id="redGlow"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+      <stop offset="0%"
+            stop-color="#FF2E38"/>
+
+      <stop offset="100%"
+            stop-color="#B3131B"/>
+
     </linearGradient>
+
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"/>
+
       <feMerge>
+
         <feMergeNode in="blur"/>
+
         <feMergeNode in="SourceGraphic"/>
+
       </feMerge>
+
     </filter>
+
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="300" rx="16"
+
+  <!-- ================================ -->
+  <!-- BACKGROUND                       -->
+  <!-- ================================ -->
+
+  <rect width="1200"
+        height="300"
+        rx="16"
         fill="url(#bg)"
         stroke="#30363D"
         stroke-width="1"/>
 
-  <!-- subtle red glow -->
-  <circle cx="1050" cy="150" r="170"
+
+  <!-- SUBTLE RED GLOW -->
+
+  <circle cx="1050"
+          cy="150"
+          r="170"
           fill="#FF2020"
           opacity="0.035"/>
 
-  <!-- LEFT CONTENT -->
+
+  <!-- ================================ -->
+  <!-- LEFT CONTENT                     -->
+  <!-- ================================ -->
+
+
+  <!-- HI THERE -->
 
   <text class="pop delay1"
-        x="38" y="52"
+        x="38"
+        y="52"
         fill="#F0F6FC"
         font-family="Arial, sans-serif"
         font-size="25"
@@ -69,8 +120,12 @@
     Hi there 👋
   </text>
 
+
+  <!-- I'M -->
+
   <text class="pop delay2"
-        x="38" y="104"
+        x="38"
+        y="104"
         fill="#F0F6FC"
         font-family="Arial, sans-serif"
         font-size="42"
@@ -78,8 +133,12 @@
     I'm
   </text>
 
+
+  <!-- NAME -->
+
   <text class="pop delay2"
-        x="112" y="104"
+        x="112"
+        y="104"
         fill="#FF343D"
         font-family="Arial, sans-serif"
         font-size="42"
@@ -87,28 +146,43 @@
     Mohammed Imran M
   </text>
 
-  <!-- TARGET ICON + SUBTITLE -->
+
+  <!-- ================================ -->
+  <!-- TARGET ICON + SUBTITLE           -->
+  <!-- ================================ -->
+
   <g class="pop delay3">
 
-    <circle cx="47" cy="145" r="11"
+    <circle cx="47"
+            cy="145"
+            r="11"
             fill="none"
             stroke="#FF343D"
             stroke-width="2"/>
 
-    <circle cx="47" cy="145" r="5"
+    <circle cx="47"
+            cy="145"
+            r="5"
             fill="none"
             stroke="#FF343D"
             stroke-width="2"/>
 
-    <line x1="47" y1="129" x2="47" y2="161"
+    <line x1="47"
+          y1="129"
+          x2="47"
+          y2="161"
           stroke="#FF343D"
           stroke-width="2"/>
 
-    <line x1="31" y1="145" x2="63" y2="145"
+    <line x1="31"
+          y1="145"
+          x2="63"
+          y2="145"
           stroke="#FF343D"
           stroke-width="2"/>
 
-    <text x="70" y="153"
+    <text x="70"
+          y="153"
           fill="#E6EDF3"
           font-family="Arial, sans-serif"
           font-size="20">
@@ -117,150 +191,298 @@
 
   </g>
 
-  <!-- SKILL PILLS -->
+
+  <!-- ================================ -->
+  <!-- SKILL PILLS                      -->
+  <!-- ================================ -->
+
   <g class="pop delay4"
      font-family="Arial, sans-serif"
      font-size="13"
      fill="#E6EDF3">
 
-    <rect x="38" y="180" width="58" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- SQL -->
+
+    <rect x="38"
+          y="180"
+          width="58"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="52" y="200">SQL</text>
+    <text x="52" y="200">
+      SQL
+    </text>
 
-    <rect x="106" y="180" width="78" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- PYTHON -->
+
+    <rect x="106"
+          y="180"
+          width="78"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="120" y="200">Python</text>
+    <text x="120" y="200">
+      Python
+    </text>
 
-    <rect x="194" y="180" width="90" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- POWER BI -->
+
+    <rect x="194"
+          y="180"
+          width="90"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="208" y="200">Power BI</text>
+    <text x="208" y="200">
+      Power BI
+    </text>
 
-    <rect x="294" y="180" width="67" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- EXCEL -->
+
+    <rect x="294"
+          y="180"
+          width="67"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="309" y="200">Excel</text>
+    <text x="309" y="200">
+      Excel
+    </text>
 
-    <rect x="371" y="180" width="140" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- DATA VISUALIZATION -->
+
+    <rect x="371"
+          y="180"
+          width="140"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="385" y="200">Data Visualization</text>
+    <text x="385" y="200">
+      Data Visualization
+    </text>
 
-    <rect x="521" y="180" width="92" height="31"
-          rx="7" fill="#0D1117"
+
+    <!-- STATISTICS -->
+
+    <rect x="521"
+          y="180"
+          width="92"
+          height="31"
+          rx="7"
+          fill="#0D1117"
           stroke="#3A4149"/>
 
-    <text x="535" y="200">Statistics</text>
+    <text x="535" y="200">
+      Statistics
+    </text>
 
   </g>
 
-<!-- RIGHT CYBER DASHBOARD -->
-<g transform="translate(735,35)">
-  <g class="pop delay5">
 
-    <!-- monitor 1 -->
-    <rect x="0" y="15" width="125" height="80"
-          rx="5"
-          fill="#080B0F"
-          stroke="#512026"/>
+  <!-- ================================ -->
+  <!-- RIGHT CYBER DASHBOARD            -->
+  <!-- ================================ -->
 
-    <line x1="14" y1="34" x2="93" y2="34"
-          stroke="#FF343D"
-          stroke-width="2"/>
+  <!--
+       IMPORTANT:
+       Outer group controls POSITION.
+       Inner group controls ANIMATION.
 
-    <line x1="14" y1="46" x2="76" y2="46"
-          stroke="#6E7681"/>
+       Do not put pop/delay5 on the outer group.
+  -->
 
-    <line x1="14" y1="58" x2="105" y2="58"
-          stroke="#FF343D"/>
+  <g transform="translate(735,35)">
 
-    <line x1="14" y1="70" x2="69" y2="70"
-          stroke="#6E7681"/>
+    <g class="pop delay5">
 
-    <!-- monitor 2 -->
-    <rect x="140" y="15" width="125" height="80"
-          rx="5"
-          fill="#080B0F"
-          stroke="#512026"/>
 
-    <!-- chart -->
-    <polyline
-      points="153,75 169,62 186,68 203,45 220,54 239,31 252,38"
-      fill="none"
-      stroke="#FF343D"
-      stroke-width="3"
-      filter="url(#glow)"/>
+      <!-- MONITOR 1 -->
 
-    <!-- monitor 3 -->
-    <rect x="280" y="15" width="125" height="80"
-          rx="5"
-          fill="#080B0F"
-          stroke="#512026"/>
+      <rect x="0"
+            y="15"
+            width="125"
+            height="80"
+            rx="5"
+            fill="#080B0F"
+            stroke="#512026"/>
 
-    <line x1="295" y1="35" x2="383" y2="35"
-          stroke="#FF343D"/>
+      <line x1="14"
+            y1="34"
+            x2="93"
+            y2="34"
+            stroke="#FF343D"
+            stroke-width="2"/>
 
-    <line x1="295" y1="48" x2="366" y2="48"
-          stroke="#6E7681"/>
+      <line x1="14"
+            y1="46"
+            x2="76"
+            y2="46"
+            stroke="#6E7681"/>
 
-    <line x1="295" y1="61" x2="389" y2="61"
-          stroke="#FF343D"/>
+      <line x1="14"
+            y1="58"
+            x2="105"
+            y2="58"
+            stroke="#FF343D"/>
 
-    <line x1="295" y1="74" x2="352" y2="74"
-          stroke="#6E7681"/>
+      <line x1="14"
+            y1="70"
+            x2="69"
+            y2="70"
+            stroke="#6E7681"/>
 
-    <!-- desk -->
-    <line x1="-20" y1="203" x2="425" y2="203"
-          stroke="#512026"
-          stroke-width="2"/>
 
-    <!-- laptop -->
-    <rect x="115" y="125" width="170" height="70"
-          rx="5"
-          fill="#090D12"
-          stroke="#FF343D"
-          stroke-width="1"/>
+      <!-- MONITOR 2 -->
 
-    <polyline
-      points="130,177 150,164 170,168 192,145 213,157 238,126 270,139"
-      fill="none"
-      stroke="#FF343D"
-      stroke-width="3"
-      filter="url(#glow)"/>
+      <rect x="140"
+            y="15"
+            width="125"
+            height="80"
+            rx="5"
+            fill="#080B0F"
+            stroke="#512026"/>
 
-    <!-- decorative data lines -->
-    <line x1="10" y1="120" x2="90" y2="120"
-          stroke="#FF343D"
-          opacity=".45"/>
 
-    <line x1="315" y1="120" x2="395" y2="120"
-          stroke="#FF343D"
-          opacity=".45"/>
+      <!-- MONITOR 2 CHART -->
 
-    <circle cx="28" cy="145" r="3"
-            fill="#FF343D"/>
+      <polyline
+        points="153,75 169,62 186,68 203,45 220,54 239,31 252,38"
+        fill="none"
+        stroke="#FF343D"
+        stroke-width="3"
+        filter="url(#glow)"/>
 
-    <circle cx="375" cy="145" r="3"
-            fill="#FF343D"/>
+
+      <!-- MONITOR 3 -->
+
+      <rect x="280"
+            y="15"
+            width="125"
+            height="80"
+            rx="5"
+            fill="#080B0F"
+            stroke="#512026"/>
+
+      <line x1="295"
+            y1="35"
+            x2="383"
+            y2="35"
+            stroke="#FF343D"/>
+
+      <line x1="295"
+            y1="48"
+            x2="366"
+            y2="48"
+            stroke="#6E7681"/>
+
+      <line x1="295"
+            y1="61"
+            x2="389"
+            y2="61"
+            stroke="#FF343D"/>
+
+      <line x1="295"
+            y1="74"
+            x2="352"
+            y2="74"
+            stroke="#6E7681"/>
+
+
+      <!-- DECORATIVE DATA -->
+
+      <line x1="10"
+            y1="120"
+            x2="90"
+            y2="120"
+            stroke="#FF343D"
+            opacity="0.45"/>
+
+      <line x1="315"
+            y1="120"
+            x2="395"
+            y2="120"
+            stroke="#FF343D"
+            opacity="0.45"/>
+
+      <circle cx="28"
+              cy="145"
+              r="3"
+              fill="#FF343D"/>
+
+      <circle cx="375"
+              cy="145"
+              r="3"
+              fill="#FF343D"/>
+
+
+      <!-- LAPTOP -->
+
+      <rect x="115"
+            y="125"
+            width="170"
+            height="70"
+            rx="5"
+            fill="#090D12"
+            stroke="#FF343D"
+            stroke-width="1"/>
+
+      <polyline
+        points="130,177 150,164 170,168 192,145 213,157 238,126 270,139"
+        fill="none"
+        stroke="#FF343D"
+        stroke-width="3"
+        filter="url(#glow)"/>
+
+
+      <!-- DESK -->
+
+      <line x1="-20"
+            y1="203"
+            x2="425"
+            y2="203"
+            stroke="#512026"
+            stroke-width="2"/>
+
+
+    </g>
+    <!-- END ANIMATION GROUP -->
 
   </g>
+  <!-- END POSITION GROUP -->
 
-  <!-- BOTTOM RED DETAIL -->
-  <line x1="38" y1="260"
-        x2="1160" y2="260"
+
+  <!-- ================================ -->
+  <!-- BOTTOM RED DETAIL                -->
+  <!-- ================================ -->
+
+  <line x1="38"
+        y1="260"
+        x2="1160"
+        y2="260"
         stroke="#FF343D"
         stroke-width="1"
-        opacity=".25"/>
+        opacity="0.25"/>
 
-  <rect x="38" y="258"
-        width="145" height="3"
+  <rect x="38"
+        y="258"
+        width="145"
+        height="3"
         fill="url(#redGlow)"/>
+
 
 </svg>
