@@ -1,416 +1,488 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300"
+<svg width="1200"
+     height="300"
+     viewBox="0 0 1200 300"
      xmlns="http://www.w3.org/2000/svg">
 
+  <style>
+    .pop {
+      opacity: 0;
+      animation: popIn 0.65s ease-out forwards;
+    }
+
+    .d1 { animation-delay: 0.2s; }
+    .d2 { animation-delay: 0.7s; }
+    .d3 { animation-delay: 1.2s; }
+
+    @keyframes popIn {
+      0% {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
       <stop offset="0%" stop-color="#0D1117"/>
       <stop offset="100%" stop-color="#10141B"/>
     </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <!-- ================= BACKGROUND ================= -->
-  <rect x="1" y="1" width="1198" height="298" rx="14"
+  <!-- BACKGROUND -->
+  <rect x="1"
+        y="1"
+        width="1198"
+        height="298"
+        rx="14"
         fill="url(#bg)"
         stroke="#30363D"
         stroke-width="1.5"/>
 
+
   <!-- ================= TECH STACK ================= -->
+
   <g transform="translate(18,18)">
+    <g class="pop d1">
 
-    <rect width="370" height="264" rx="12"
-          fill="#0D1117"
-          stroke="#30363D"/>
+      <rect width="370"
+            height="264"
+            rx="12"
+            fill="#0D1117"
+            stroke="#30363D"/>
 
-    <text x="22" y="38"
-          fill="#FF3347"
-          font-family="Segoe UI, Arial"
-          font-size="20"
-          font-weight="700">
-      ⚡ Tech Stack
-    </text>
-
-    <line x1="22" y1="50" x2="348" y2="50"
-          stroke="#FF3347"
-          stroke-opacity="0.35"/>
-
-    <!-- ROW 1 -->
-
-    <g transform="translate(25,75)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#2388FF"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#58A6FF"
-            font-size="12"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        SQL
+      <text x="22"
+            y="38"
+            fill="#FF3347"
+            font-family="Segoe UI, Arial"
+            font-size="20"
+            font-weight="700">
+        ⚡ Tech Stack
       </text>
 
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        SQL
-      </text>
+      <line x1="22"
+            y1="50"
+            x2="348"
+            y2="50"
+            stroke="#FF3347"
+            stroke-opacity="0.35"/>
+
+      <!-- ROW 1 -->
+
+      <g transform="translate(25,75)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#2388FF"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#58A6FF"
+              font-size="12"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          SQL
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          SQL
+        </text>
+      </g>
+
+      <g transform="translate(100,75)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#F1C40F"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#F1C40F"
+              font-size="17"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          Py
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          Python
+        </text>
+      </g>
+
+      <g transform="translate(175,75)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#F2C811"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#F2C811"
+              font-size="15"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          BI
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          Power BI
+        </text>
+      </g>
+
+      <g transform="translate(270,75)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#21A366"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#21A366"
+              font-size="15"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          XL
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          Excel
+        </text>
+      </g>
+
+      <!-- ROW 2 -->
+
+      <g transform="translate(25,170)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#3776AB"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#58A6FF"
+              font-size="12"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          PD
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          Pandas
+        </text>
+      </g>
+
+      <g transform="translate(100,170)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#58A6FF"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#58A6FF"
+              font-size="12"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          NP
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          NumPy
+        </text>
+      </g>
+
+      <g transform="translate(175,170)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#F05032"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#F05032"
+              font-size="12"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          Git
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          Git
+        </text>
+      </g>
+
+      <g transform="translate(270,170)">
+        <circle cx="25" cy="20" r="20"
+                fill="#111820"
+                stroke="#F0F6FC"/>
+
+        <text x="25" y="25"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="12"
+              font-weight="700"
+              font-family="Segoe UI, Arial">
+          GH
+        </text>
+
+        <text x="25" y="58"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="13"
+              font-family="Segoe UI, Arial">
+          GitHub
+        </text>
+      </g>
+
     </g>
-
-    <g transform="translate(100,75)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#F1C40F"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#F1C40F"
-            font-size="17"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        Py
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        Python
-      </text>
-    </g>
-
-    <g transform="translate(175,75)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#F2C811"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#F2C811"
-            font-size="15"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        BI
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        Power BI
-      </text>
-    </g>
-
-    <g transform="translate(270,75)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#21A366"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#21A366"
-            font-size="15"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        XL
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        Excel
-      </text>
-    </g>
-
-    <!-- ROW 2 -->
-
-    <g transform="translate(25,170)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#3776AB"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#58A6FF"
-            font-size="12"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        PD
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        Pandas
-      </text>
-    </g>
-
-    <g transform="translate(100,170)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#58A6FF"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#58A6FF"
-            font-size="12"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        NP
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        NumPy
-      </text>
-    </g>
-
-    <g transform="translate(175,170)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#F05032"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#F05032"
-            font-size="12"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        Git
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        Git
-      </text>
-    </g>
-
-    <g transform="translate(270,170)">
-      <circle cx="25" cy="20" r="20"
-              fill="#111820"
-              stroke="#F0F6FC"/>
-
-      <text x="25" y="25"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="12"
-            font-weight="700"
-            font-family="Segoe UI, Arial">
-        GH
-      </text>
-
-      <text x="25" y="58"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="13"
-            font-family="Segoe UI, Arial">
-        GitHub
-      </text>
-    </g>
-
   </g>
 
 
   <!-- ================= HIGHLIGHTS ================= -->
 
   <g transform="translate(405,18)">
+    <g class="pop d2">
 
-    <rect width="370" height="264" rx="12"
-          fill="#0D1117"
-          stroke="#30363D"/>
+      <rect width="370"
+            height="264"
+            rx="12"
+            fill="#0D1117"
+            stroke="#30363D"/>
 
-    <text x="22" y="38"
-          fill="#FF3347"
-          font-family="Segoe UI, Arial"
-          font-size="20"
-          font-weight="700">
-      🚀 Highlights
-    </text>
+      <text x="22"
+            y="38"
+            fill="#FF3347"
+            font-family="Segoe UI, Arial"
+            font-size="20"
+            font-weight="700">
+        🚀 Highlights
+      </text>
 
-    <line x1="22" y1="50" x2="348" y2="50"
-          stroke="#FF3347"
-          stroke-opacity="0.35"/>
+      <line x1="22"
+            y1="50"
+            x2="348"
+            y2="50"
+            stroke="#FF3347"
+            stroke-opacity="0.35"/>
 
-    <text x="25" y="88"
-          fill="#FF3347"
-          font-size="14"
-          font-family="Segoe UI, Arial">✦</text>
+      <text x="25" y="88"
+            fill="#FF3347"
+            font-size="14"
+            font-family="Segoe UI, Arial">✦</text>
 
-    <text x="50" y="88"
-          fill="#F0F6FC"
-          font-size="14"
-          font-family="Segoe UI, Arial">
-      Building interactive Power BI dashboards
-    </text>
+      <text x="50" y="88"
+            fill="#F0F6FC"
+            font-size="14"
+            font-family="Segoe UI, Arial">
+        Building interactive Power BI dashboards
+      </text>
 
-    <text x="25" y="125"
-          fill="#FF3347"
-          font-size="14"
-          font-family="Segoe UI, Arial">✦</text>
+      <text x="25" y="125"
+            fill="#FF3347"
+            font-size="14"
+            font-family="Segoe UI, Arial">✦</text>
 
-    <text x="50" y="125"
-          fill="#F0F6FC"
-          font-size="14"
-          font-family="Segoe UI, Arial">
-      Cleaning and analyzing real-world datasets
-    </text>
+      <text x="50" y="125"
+            fill="#F0F6FC"
+            font-size="14"
+            font-family="Segoe UI, Arial">
+        Cleaning and analyzing real-world datasets
+      </text>
 
-    <text x="25" y="162"
-          fill="#FF3347"
-          font-size="14"
-          font-family="Segoe UI, Arial">✦</text>
+      <text x="25" y="162"
+            fill="#FF3347"
+            font-size="14"
+            font-family="Segoe UI, Arial">✦</text>
 
-    <text x="50" y="162"
-          fill="#F0F6FC"
-          font-size="14"
-          font-family="Segoe UI, Arial">
-      Extracting insights using SQL
-    </text>
+      <text x="50" y="162"
+            fill="#F0F6FC"
+            font-size="14"
+            font-family="Segoe UI, Arial">
+        Extracting insights using SQL
+      </text>
 
-    <text x="25" y="199"
-          fill="#FF3347"
-          font-size="14"
-          font-family="Segoe UI, Arial">✦</text>
+      <text x="25" y="199"
+            fill="#FF3347"
+            font-size="14"
+            font-family="Segoe UI, Arial">✦</text>
 
-    <text x="50" y="199"
-          fill="#F0F6FC"
-          font-size="14"
-          font-family="Segoe UI, Arial">
-      Developing Python data-analysis skills
-    </text>
+      <text x="50" y="199"
+            fill="#F0F6FC"
+            font-size="14"
+            font-family="Segoe UI, Arial">
+        Developing Python data-analysis skills
+      </text>
 
-    <text x="25" y="236"
-          fill="#FF3347"
-          font-size="14"
-          font-family="Segoe UI, Arial">✦</text>
+      <text x="25" y="236"
+            fill="#FF3347"
+            font-size="14"
+            font-family="Segoe UI, Arial">✦</text>
 
-    <text x="50" y="236"
-          fill="#F0F6FC"
-          font-size="14"
-          font-family="Segoe UI, Arial">
-      Continuously learning and building projects
-    </text>
+      <text x="50" y="236"
+            fill="#F0F6FC"
+            font-size="14"
+            font-family="Segoe UI, Arial">
+        Continuously learning and building projects
+      </text>
 
+    </g>
   </g>
 
 
   <!-- ================= FEATURED PROJECT ================= -->
 
   <g transform="translate(792,18)">
+    <g class="pop d3">
 
-    <rect width="390" height="264" rx="12"
-          fill="#0D1117"
-          stroke="#5C242A"/>
+      <rect width="390"
+            height="264"
+            rx="12"
+            fill="#0D1117"
+            stroke="#5C242A"/>
 
-    <text x="22" y="38"
-          fill="#FF3347"
-          font-family="Segoe UI, Arial"
-          font-size="20"
-          font-weight="700">
-      🔥 Featured Project
-    </text>
-
-    <line x1="22" y1="50" x2="368" y2="50"
-          stroke="#FF3347"
-          stroke-opacity="0.35"/>
-
-    <text x="22" y="86"
-          fill="#F0F6FC"
-          font-family="Segoe UI, Arial"
-          font-size="19"
-          font-weight="600">
-      Sales Performance Dashboard
-    </text>
-
-    <text x="22" y="117"
-          fill="#8B949E"
-          font-family="Segoe UI, Arial"
-          font-size="14">
-      End-to-end analytics dashboard built
-    </text>
-
-    <text x="22" y="139"
-          fill="#8B949E"
-          font-family="Segoe UI, Arial"
-          font-size="14">
-      to analyze sales performance and KPIs.
-    </text>
-
-    <!-- TAGS -->
-
-    <g transform="translate(22,163)">
-
-      <rect width="78" height="30" rx="6"
-            fill="#111820"
-            stroke="#30363D"/>
-
-      <text x="39" y="20"
-            text-anchor="middle"
-            fill="#F2C811"
-            font-size="12"
-            font-family="Segoe UI, Arial">
-        Power BI
+      <text x="22"
+            y="38"
+            fill="#FF3347"
+            font-family="Segoe UI, Arial"
+            font-size="20"
+            font-weight="700">
+        🔥 Featured Project
       </text>
 
-      <rect x="88" width="100" height="30" rx="6"
-            fill="#111820"
-            stroke="#30363D"/>
+      <line x1="22"
+            y1="50"
+            x2="368"
+            y2="50"
+            stroke="#FF3347"
+            stroke-opacity="0.35"/>
 
-      <text x="138" y="20"
-            text-anchor="middle"
+      <text x="22"
+            y="86"
             fill="#F0F6FC"
-            font-size="12"
-            font-family="Segoe UI, Arial">
-        Data Analysis
+            font-family="Segoe UI, Arial"
+            font-size="19"
+            font-weight="600">
+        E-Commerce Sales Dashboard
       </text>
 
-      <rect x="198" width="85" height="30" rx="6"
-            fill="#111820"
-            stroke="#30363D"/>
-
-      <text x="240" y="20"
-            text-anchor="middle"
-            fill="#F0F6FC"
-            font-size="12"
-            font-family="Segoe UI, Arial">
-        Dashboard
+      <text x="22"
+            y="117"
+            fill="#8B949E"
+            font-family="Segoe UI, Arial"
+            font-size="14">
+        End-to-end sales analytics dashboard
       </text>
+
+      <text x="22"
+            y="139"
+            fill="#8B949E"
+            font-family="Segoe UI, Arial"
+            font-size="14">
+        built to analyze performance and KPIs.
+      </text>
+
+
+      <!-- TAGS -->
+
+      <g transform="translate(22,163)">
+
+        <rect width="78"
+              height="30"
+              rx="6"
+              fill="#111820"
+              stroke="#30363D"/>
+
+        <text x="39"
+              y="20"
+              text-anchor="middle"
+              fill="#F2C811"
+              font-size="12"
+              font-family="Segoe UI, Arial">
+          Power BI
+        </text>
+
+
+        <rect x="88"
+              width="80"
+              height="30"
+              rx="6"
+              fill="#111820"
+              stroke="#30363D"/>
+
+        <text x="128"
+              y="20"
+              text-anchor="middle"
+              fill="#58A6FF"
+              font-size="12"
+              font-family="Segoe UI, Arial">
+          SQL
+        </text>
+
+
+        <rect x="178"
+              width="95"
+              height="30"
+              rx="6"
+              fill="#111820"
+              stroke="#30363D"/>
+
+        <text x="225"
+              y="20"
+              text-anchor="middle"
+              fill="#F0F6FC"
+              font-size="12"
+              font-family="Segoe UI, Arial">
+          Dashboard
+        </text>
+
+      </g>
+
+      <text x="22"
+            y="229"
+            fill="#FF3347"
+            font-family="Segoe UI, Arial"
+            font-size="14"
+            font-weight="600">
+        View Repository →
+      </text>
+
+      <line x1="22"
+            y1="244"
+            x2="368"
+            y2="244"
+            stroke="#FF3347"
+            stroke-opacity="0.25"/>
 
     </g>
-
-    <text x="22" y="229"
-          fill="#FF3347"
-          font-family="Segoe UI, Arial"
-          font-size="14"
-          font-weight="600">
-      View Repository →
-    </text>
-
-    <line x1="22" y1="244" x2="368" y2="244"
-          stroke="#FF3347"
-          stroke-opacity="0.25"/>
-
   </g>
 
 </svg>
