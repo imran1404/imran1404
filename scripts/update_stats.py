@@ -210,31 +210,33 @@ with open(
 #
 # ============================================================
 
-replacements = {
-
-    "{{REPOSITORIES}}":
-        str(repositories),
-
-    "{{STARS}}":
-        str(stars),
-
-    "{{FOLLOWERS}}":
-        str(followers),
-
-    "{{COMMITS}}":
-        str(total_commits),
-
-    "{{PRS}}":
-        str(merged_prs),
+stats_by_id = {
+    "repositories-value": str(repositories),
+    "stars-value": str(stars),
+    "followers-value": str(followers),
+    "commits-value": str(total_commits),
+    "prs-value": str(merged_prs),
 }
 
-
-for placeholder, value in replacements.items():
-
-    svg = svg.replace(
-        placeholder,
-        value
+for element_id, value in stats_by_id.items():
+    pattern = (
+        rf'(<text[^>]*id="{re.escape(element_id)}"[^>]*>)'
+        rf'(.*?)'
+        rf'(</text>)'
     )
+
+    svg, count = re.subn(
+        pattern,
+        rf'\g<1>{value}\g<3>',
+        svg,
+        count=1,
+        flags=re.DOTALL
+    )
+
+    if count == 0:
+        raise RuntimeError(
+            f'Could not find SVG element with id="{element_id}"'
+        )
 
 
 # ============================================================
