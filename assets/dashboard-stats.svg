@@ -100,14 +100,15 @@
         ★  Stars Earned
       </text>
 
-      <text x="20"
-            y="72"
-            fill="#FF3347"
-            font-family="Segoe UI, Arial"
-            font-size="27"
-            font-weight="700">
-        0
-      </text>
+<text id="stars-value"
+      x="20"
+      y="72"
+      fill="#FF3347"
+      font-family="Segoe UI, Arial"
+      font-size="27"
+      font-weight="700">
+  2
+</text>
 
     </g>
   </g>
@@ -131,14 +132,15 @@
         ◉  Followers
       </text>
 
-      <text x="20"
-            y="72"
-            fill="#FF3347"
-            font-family="Segoe UI, Arial"
-            font-size="27"
-            font-weight="700">
-        3
-      </text>
+     <text id="followers-value"
+      x="20"
+      y="72"
+      fill="#FF3347"
+      font-family="Segoe UI, Arial"
+      font-size="27"
+      font-weight="700">
+  3
+</text>
 
     </g>
   </g>
@@ -162,14 +164,15 @@
         ⑂  Total Commits
       </text>
 
-      <text x="20"
-            y="72"
-            fill="#FF3347"
-            font-family="Segoe UI, Arial"
-            font-size="27"
-            font-weight="700">
-        —
-      </text>
+    <text id="commits-value"
+      x="20"
+      y="72"
+      fill="#FF3347"
+      font-family="Segoe UI, Arial"
+      font-size="27"
+      font-weight="700">
+  —
+</text>
 
     </g>
   </g>
@@ -193,14 +196,15 @@
         ⑂  PRs Merged
       </text>
 
-      <text x="20"
-            y="72"
-            fill="#FF3347"
-            font-family="Segoe UI, Arial"
-            font-size="27"
-            font-weight="700">
-        —
-      </text>
+     <text id="prs-value"
+      x="20"
+      y="72"
+      fill="#FF3347"
+      font-family="Segoe UI, Arial"
+      font-size="27"
+      font-weight="700">
+  —
+</text>
 
     </g>
   </g>
