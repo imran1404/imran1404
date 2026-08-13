@@ -1,0 +1,106 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .pop {
+    opacity: 0;
+    animation: popIn 0.8s ease-out forwards;
+  }
+
+  .delay1 { animation-delay: 0.2s; }
+  .delay2 { animation-delay: 0.6s; }
+
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080C10"/>
+    <stop offset="55%" stop-color="#0D1117"/>
+    <stop offset="100%" stop-color="#14090B"/>
+  </linearGradient>
+
+  <linearGradient id="redGlow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FF343D"/>
+    <stop offset="100%" stop-color="#B3131B"/>
+  </linearGradient>
+</defs>
+
+<!-- BACKGROUND -->
+<rect width="1200"
+      height="110"
+      rx="16"
+      fill="url(#bg)"
+      stroke="#30363D"
+      stroke-width="1"/>
+
+<!-- TOP ACCENT -->
+<line x1="22"
+      y1="8"
+      x2="1178"
+      y2="8"
+      stroke="#FF343D"
+      stroke-width="1"
+      opacity="0.35"/>
+
+<!-- LEFT QUOTE -->
+<text class="pop delay1"
+      x="30"
+      y="67"
+      fill="#FF343D"
+      font-family="Georgia, serif"
+      font-size="42"
+      font-weight="700">
+  “
+</text>
+
+<!-- QUOTE TEXT -->
+<text class="pop delay2"
+      x="600"
+      y="58"
+      text-anchor="middle"
+      fill="#E6EDF3"
+      font-family="Georgia, serif"
+      font-size="21"
+      font-style="italic">
+  Data is not just numbers, it’s a story waiting to be told.
+</text>
+
+<!-- RIGHT QUOTE -->
+<text class="pop delay1"
+      x="1160"
+      y="67"
+      text-anchor="end"
+      fill="#FF343D"
+      font-family="Georgia, serif"
+      font-size="42"
+      font-weight="700">
+  ”
+</text>
+
+<!-- BOTTOM DETAIL -->
+<line x1="320"
+      y1="88"
+      x2="880"
+      y2="88"
+      stroke="#512026"
+      stroke-width="1"/>
+
+<rect x="515"
+      y="86"
+      width="170"
+      height="3"
+      rx="2"
+      fill="url(#redGlow)"/>
+
+</svg>
