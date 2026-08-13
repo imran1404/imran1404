@@ -5,15 +5,15 @@
 
   /* CARD ENTRANCE */
   .pop {
-    opacity: 0;
-    animation: popIn 0.7s ease-out forwards;
-  }
+  opacity: 0;
+  animation: popIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
 
-  .delay1 { animation-delay: 0.2s; }
-  .delay2 { animation-delay: 0.7s; }
-  .delay3 { animation-delay: 1.1s; }
-  .delay4 { animation-delay: 1.5s; }
-  .delay5 { animation-delay: 1.9s; }
+.delay1 { animation-delay: 0.15s; }
+.delay2 { animation-delay: 0.35s; }
+.delay3 { animation-delay: 0.65s; }
+.delay4 { animation-delay: 0.95s; }
+.delay5 { animation-delay: 1.25s; }
 
   @keyframes popIn {
     0% {
