@@ -9,11 +9,11 @@
   animation: popIn 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-.delay1 { animation-delay: 0.4s; }
-.delay2 { animation-delay: 1.1s; }
-.delay3 { animation-delay: 1.7s; }
-.delay4 { animation-delay: 2.4s; }
-.delay5 { animation-delay: 3.1s; }
+.delay1 { animation-delay: 0.5s; }
+.delay2 { animation-delay: 1.2s; }
+.delay3 { animation-delay: 1.9s; }
+.delay4 { animation-delay: 2.6s; }
+.delay5 { animation-delay: 3.3s; }
 
     @keyframes popIn {
       0% {
