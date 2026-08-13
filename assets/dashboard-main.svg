@@ -24,6 +24,18 @@
         transform: translateY(0);
       }
     }
+.hover-card {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.25s ease, filter 0.25s ease;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: scale(1.035);
+  filter: drop-shadow(0 0 10px rgba(255, 52, 61, 0.35));
+}
+       
   </style>
 
   <defs>
@@ -51,8 +63,7 @@
   <!-- ================= TECH STACK ================= -->
 
   <g transform="translate(18,18)">
-    <g class="pop d1">
-
+<g class="pop d1 hover-card">
       <rect width="370"
             height="264"
             rx="12"
