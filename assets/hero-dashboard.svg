@@ -1,0 +1,17 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1536"
+  height="378"
+  viewBox="0 0 1536 378">
+
+  <image
+    href="YOUR_IMAGE_URL_HERE"
+    x="0"
+    y="0"
+    width="1536"
+    height="378"
+    preserveAspectRatio="xMidYMid slice"
+  />
+
+</svg>
