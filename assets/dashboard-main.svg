@@ -9,9 +9,9 @@
   animation: popIn 0.65s ease-out forwards;
 }
 
-.d1 { animation-delay: 0.2s; }
-.d2 { animation-delay: 0.7s; }
-.d3 { animation-delay: 1.2s; }
+.d1 { animation-delay: 0.15s; }
+.d2 { animation-delay: 0.35s; }
+.d3 { animation-delay: 0.55s; }
 
     @keyframes popIn {
       0% {
