@@ -1,1 +1,136 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130"
+     xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#10141B"/>
+    </linearGradient>
+
+    <filter id="redGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="1198" height="128" rx="14"
+        fill="url(#bg)"
+        stroke="#30363D"
+        stroke-width="1.5"/>
+
+  <!-- CARD 1 -->
+  <g transform="translate(18,16)">
+    <rect width="220" height="98" rx="10"
+          fill="#0D1117" stroke="#30363D"/>
+
+    <text x="20" y="35"
+          fill="#8B949E"
+          font-family="Segoe UI, Arial"
+          font-size="15">
+      ▣  Repositories
+    </text>
+
+    <text x="20" y="72"
+          fill="#FF3347"
+          font-family="Segoe UI, Arial"
+          font-size="27"
+          font-weight="700">
+      2
+    </text>
+  </g>
+
+  <!-- CARD 2 -->
+  <g transform="translate(254,16)">
+    <rect width="220" height="98" rx="10"
+          fill="#0D1117" stroke="#30363D"/>
+
+    <text x="20" y="35"
+          fill="#8B949E"
+          font-family="Segoe UI, Arial"
+          font-size="15">
+      ★  Stars Earned
+    </text>
+
+    <text x="20" y="72"
+          fill="#FF3347"
+          font-family="Segoe UI, Arial"
+          font-size="27"
+          font-weight="700">
+      0
+    </text>
+  </g>
+
+  <!-- CARD 3 -->
+  <g transform="translate(490,16)">
+    <rect width="220" height="98" rx="10"
+          fill="#0D1117" stroke="#30363D"/>
+
+    <text x="20" y="35"
+          fill="#8B949E"
+          font-family="Segoe UI, Arial"
+          font-size="15">
+      ◉  Followers
+    </text>
+
+    <text x="20" y="72"
+          fill="#FF3347"
+          font-family="Segoe UI, Arial"
+          font-size="27"
+          font-weight="700">
+      3
+    </text>
+  </g>
+
+  <!-- CARD 4 -->
+  <g transform="translate(726,16)">
+    <rect width="220" height="98" rx="10"
+          fill="#0D1117" stroke="#30363D"/>
+
+    <text x="20" y="35"
+          fill="#8B949E"
+          font-family="Segoe UI, Arial"
+          font-size="15">
+      ⑂  Total Commits
+    </text>
+
+    <text x="20" y="72"
+          fill="#FF3347"
+          font-family="Segoe UI, Arial"
+          font-size="27"
+          font-weight="700">
+      —
+    </text>
+  </g>
+
+  <!-- CARD 5 -->
+  <g transform="translate(962,16)">
+    <rect width="220" height="98" rx="10"
+          fill="#0D1117" stroke="#30363D"/>
+
+    <text x="20" y="35"
+          fill="#8B949E"
+          font-family="Segoe UI, Arial"
+          font-size="15">
+      ⑂  PRs Merged
+    </text>
+
+    <text x="20" y="72"
+          fill="#FF3347"
+          font-family="Segoe UI, Arial"
+          font-size="27"
+          font-weight="700">
+      —
+    </text>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect x="20" y="124" width="1160" height="2" rx="1"
+        fill="#FF3347"
+        opacity="0.55"
+        filter="url(#redGlow)"/>
+
+</svg>
