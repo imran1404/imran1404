@@ -38,7 +38,18 @@
        
   </style>
 
-  <defs>
+<defs>
+
+  <filter id="cardGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow
+      dx="0"
+      dy="4"
+      stdDeviation="6"
+      flood-color="#FF343D"
+      flood-opacity="0.18"/>
+  </filter>
+
+
     <linearGradient id="bg"
                     x1="0"
                     y1="0"
@@ -68,7 +79,9 @@
             height="264"
             rx="12"
             fill="#0D1117"
-            stroke="#30363D"/>
+            stroke="#30363D"
+            filter="url(#cardGlow)"
+           />
 
       <text x="22"
             y="38"
