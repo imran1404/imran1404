@@ -43,21 +43,21 @@
   <h2>⚡ CONNECT WITH ME</h2>
 
   <p>
-    <a href="YOUR_LINKEDIN_URL">
+    <a href="www.linkedin.com/in/mohmmed-imran-data-analyst">
       <img src="https://img.shields.io/badge/LINKEDIN-Professional_Network-161B22?style=for-the-badge&logo=linkedin&logoColor=FF343D&labelColor=0D1117" alt="LinkedIn">
     </a>
 
-  <a href="YOUR_RESUME_LINK">
+  <a href="https://drive.google.com/file/d/1ImdqTczqyNyPs9GG0zlY9HQYJAicDEe4/view?usp=drive_link">
       <img src="https://img.shields.io/badge/RESUME-View_Credentials-161B22?style=for-the-badge&logo=googledocs&logoColor=FF343D&labelColor=0D1117" alt="Resume">
     </a>
   </p>
 
   <p>
-    <a href="mailto:YOUR_EMAIL">
+    <a href="mailto:mohammedimranm0414@gmail.com">
       <img src="https://img.shields.io/badge/EMAIL-Direct_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=FF343D&labelColor=0D1117" alt="Email">
     </a>
 
-   <a href="YOUR_INSTAGRAM_URL">
+   <a href="https://www.instagram.com/?hl=en">
       <img src="https://img.shields.io/badge/INSTAGRAM-Personal_Feed-161B22?style=for-the-badge&logo=instagram&logoColor=FF343D&labelColor=0D1117" alt="Instagram">
     </a>
   </p>
