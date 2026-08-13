@@ -5,15 +5,15 @@
 
   <style>
     .pop {
-      opacity: 0;
-      animation: popIn 0.55s ease-out forwards;
-    }
+  opacity: 0;
+  animation: popIn 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
 
-    .d1 { animation-delay: 0.2s; }
-    .d2 { animation-delay: 0.5s; }
-    .d3 { animation-delay: 0.8s; }
-    .d4 { animation-delay: 1.1s; }
-    .d5 { animation-delay: 1.4s; }
+.d1 { animation-delay: 0.3s; }
+.d2 { animation-delay: 1.0s; }
+.d3 { animation-delay: 1.6s; }
+.d4 { animation-delay: 2.2s; }
+.d5 { animation-delay: 3.0s; }
 
     @keyframes popIn {
       0% {
