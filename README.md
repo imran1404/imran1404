@@ -16,10 +16,10 @@
 <br>
 
 <p align="center">
-  <a href="(https://github.com/imran1404/ecommerce-sales-analysis-sql)">
+  <a href="https://github.com/imran1404/ecommerce-sales-analysis-sql">
     <img src="./assets/dashboard-main.svg"
          width="100%"
-         alt="Data Analyst Dashboard">
+         alt="E-Commerce Sales Dashboard">
   </a>
 </p>
 
