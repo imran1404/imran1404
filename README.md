@@ -32,3 +32,5 @@
 <p align="center">
   <img src="./assets/dashboard-footer.svg" width="100%" alt="Data Analyst Quote Footer">
 </p>
+
+<br>
