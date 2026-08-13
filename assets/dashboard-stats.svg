@@ -69,14 +69,15 @@
         ▣  Repositories
       </text>
 
-      <text x="20"
-            y="72"
-            fill="#FF3347"
-            font-family="Segoe UI, Arial"
-            font-size="27"
-            font-weight="700">
-        2
-      </text>
+      <text id="repositories-value"
+      x="20"
+      y="72"
+      fill="#FF3347"
+      font-family="Segoe UI, Arial"
+      font-size="27"
+      font-weight="700">
+  2
+</text>
 
     </g>
   </g>
