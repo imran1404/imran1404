@@ -1,6 +1,29 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300"
      xmlns="http://www.w3.org/2000/svg">
+<style>
+  .pop {
+    opacity: 0;
+    animation: popIn 0.7s ease-out forwards;
+  }
 
+  .delay1 { animation-delay: 0.2s; }
+  .delay2 { animation-delay: 0.6s; }
+  .delay3 { animation-delay: 1.0s; }
+  .delay4 { animation-delay: 1.4s; }
+  .delay5 { animation-delay: 1.8s; }
+
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#080C10"/>
