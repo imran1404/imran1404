@@ -19,7 +19,7 @@
   <a href="https://github.com/imran1404/ecommerce-sales-analysis-sql">
     <img src="./assets/dashboard-main.svg"
          width="100%"
-         alt="E-Commerce Sales Dashboard">
+         alt="E-Commerce Sales Analysis using MySQL and Power BI">
   </a>
 </p>
 
