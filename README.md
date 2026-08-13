@@ -26,7 +26,42 @@
 <p align="center">
   <img src="./assets/dashboard-activity.svg"
        width="100%"
-       alt="Contribution Analytics and Recent Activity">
+       alt="Contribution Analytics and Recent Activity"
+
+<br>
+
+<div align="center">
+
+  <h2>⚡ CONNECT WITH ME</h2>
+
+  <p>
+    <a href="YOUR_LINKEDIN_URL">
+      <img src="https://img.shields.io/badge/LINKEDIN-Professional_Network-161B22?style=for-the-badge&logo=linkedin&logoColor=FF343D&labelColor=0D1117" alt="LinkedIn">
+    </a>
+
+  <a href="YOUR_RESUME_LINK">
+      <img src="https://img.shields.io/badge/RESUME-View_Credentials-161B22?style=for-the-badge&logo=googledocs&logoColor=FF343D&labelColor=0D1117" alt="Resume">
+    </a>
+  </p>
+
+  <p>
+    <a href="mailto:YOUR_EMAIL">
+      <img src="https://img.shields.io/badge/EMAIL-Direct_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=FF343D&labelColor=0D1117" alt="Email">
+    </a>
+
+   <a href="YOUR_INSTAGRAM_URL">
+      <img src="https://img.shields.io/badge/INSTAGRAM-Personal_Feed-161B22?style=for-the-badge&logo=instagram&logoColor=FF343D&labelColor=0D1117" alt="Instagram">
+    </a>
+  </p>
+
+
+<br>
+<br>
+
+<p>
+  <code>● SYSTEM ONLINE</code>
+  &nbsp;&nbsp;&nbsp;
+  <code>OPEN TO OPPORTUNITIES</code>
 </p>
 
 <p align="center">
