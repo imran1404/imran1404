@@ -161,9 +161,10 @@
 
   </g>
 
-  <!-- RIGHT CYBER DASHBOARD -->
-  <g class="pop delay5"
-     transform="translate(735,35)">
+<!-- RIGHT CYBER DASHBOARD -->
+
+<g transform="translate(735,35)">
+  <g class="pop delay5">
 
     <!-- monitor 1 -->
     <rect x="0" y="15" width="125" height="80"
