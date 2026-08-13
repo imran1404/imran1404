@@ -43,7 +43,7 @@
   <h2>⚡ CONNECT WITH ME</h2>
 
   <p>
-    <a href="www.linkedin.com/in/mohmmed-imran-data-analyst">
+    <a href="https://www.linkedin.com/in/mohmmed-imran-data-analyst">
       <img src="https://img.shields.io/badge/LINKEDIN-Professional_Network-161B22?style=for-the-badge&logo=linkedin&logoColor=FF343D&labelColor=0D1117" alt="LinkedIn">
     </a>
 
