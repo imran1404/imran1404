@@ -16,9 +16,11 @@
 <br>
 
 <p align="center">
-  <img src="./assets/dashboard-main.svg"
-       width="100%"
-       alt="Data Analyst Dashboard">
+  <a href="(https://github.com/imran1404/ecommerce-sales-analysis-sql)">
+    <img src="./assets/dashboard-main.svg"
+         width="100%"
+         alt="Data Analyst Dashboard">
+  </a>
 </p>
 
 <br>
