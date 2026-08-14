@@ -15,18 +15,14 @@
 </p>
 
 <p align="center">
-
-<a href="https://github.com/imran1404/finsight-financial-analytics">
-
-<img src="./assets/finsight-ongoing.svg"
-     width="100%"
-     alt="FinSight Financial Analytics — Currently Building">
-
-</a>
-
+  <a href="https://github.com/imran1404/finsight-financial-analytics">
+    <img
+      src="./assets/finsight-ongoing.svg"
+      width="100%"
+      alt="FinSight Financial Analytics"
+    >
+  </a>
 </p>
-
-<br>
 
 
 <br>
