@@ -17,16 +17,12 @@
 <br>
 
 <p align="center">
-  <a href="[https://github.com/imran1404/finsight-financial-analytics">
-    <img
-      src="./assets/finsight-ongoing.svg"
-      width="100%"
-      alt="Currently Building — FinSight Financial Analytics"
-    >
+  <a href="https://github.com/imran1404/finsight-financial-analytics">
+    <img src="./assets/finsight-ongoing.svg"
+         width="100%"
+         alt="Currently Building — FinSight Financial Analytics">
   </a>
 </p>
-
-<br>
 
 
 <br>
