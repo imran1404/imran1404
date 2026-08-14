@@ -6,11 +6,27 @@
 
 <br>
 
+<br>
+
 <p align="center">
   <img src="./assets/dashboard-stats.svg"
        width="100%"
        alt="GitHub Statistics">
 </p>
+
+<p align="center">
+
+<a href="https://github.com/imran1404/finsight-financial-analytics">
+
+<img src="./assets/finsight-ongoing.svg"
+     width="100%"
+     alt="FinSight Financial Analytics — Currently Building">
+
+</a>
+
+</p>
+
+<br>
 
 
 <br>
