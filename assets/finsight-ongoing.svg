@@ -1,6 +1,52 @@
 <svg width="1000" height="300" viewBox="0 0 1000 300"
      xmlns="http://www.w3.org/2000/svg">
 
+<style>
+  .finsight-pop {
+    opacity: 0;
+    transform: translateY(35px) scale(0.96);
+    transform-origin: center;
+    animation: finsightEnter 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @keyframes finsightEnter {
+    0% {
+      opacity: 0;
+      transform: translateY(35px) scale(0.96);
+    }
+
+    70% {
+      opacity: 1;
+      transform: translateY(-3px) scale(1.005);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .delay1 {
+    animation-delay: 0.15s;
+  }
+
+  .delay2 {
+    animation-delay: 0.35s;
+  }
+
+  .delay3 {
+    animation-delay: 0.55s;
+  }
+
+  .delay4 {
+    animation-delay: 0.75s;
+  }
+
+  .delay5 {
+    animation-delay: 0.95s;
+  }
+</style>
+     
   <defs>
 
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
