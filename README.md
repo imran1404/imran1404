@@ -35,12 +35,13 @@
   </a>
 </p>
 
-<br>
-
 <p align="center">
   <img src="./assets/dashboard-activity.svg"
        width="100%"
-       alt="Contribution Analytics and Recent Activity"
+       alt="Contribution Analytics and Recent Activity">
+</p>
+
+<br>
 
 <br>
 
@@ -74,7 +75,7 @@
     </a>
   </p>
 
-
+</div>
 <br>
 <br>
 
