@@ -67,7 +67,7 @@
         alt="LinkedIn">
     </a>
 
-    <a href="https://drive.google.com/file/d/1ImdqTczqyNyPs9GG0zlY9HQYJAicDEe4/view?usp=drive_link">
+   <a href="https://drive.google.com/file/d/1ImdqTczqyNyPs9GG0zlY9HQYJAicDEe4/view?usp=drive_link">
       <img
         src="https://img.shields.io/badge/RESUME-View_Credentials-161B22?style=for-the-badge&logo=googledocs&logoColor=FF343D&labelColor=0D1117"
         alt="Resume">
@@ -81,7 +81,7 @@
         alt="Email">
     </a>
 
-    <a href="https://www.instagram.com/?hl=en">
+   <a href="https://www.instagram.com/?hl=en">
       <img
         src="https://img.shields.io/badge/INSTAGRAM-Personal_Feed-161B22?style=for-the-badge&logo=instagram&logoColor=FF343D&labelColor=0D1117"
         alt="Instagram">
