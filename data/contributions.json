@@ -1,6 +1,6 @@
 {
   "username": "imran1404",
-  "total_days": 366,
+  "total_days": 367,
   "contributions": [
     {
       "date": "2025-08-24",
@@ -633,6 +633,10 @@
     {
       "date": "2026-08-18",
       "level": 1
+    },
+    {
+      "date": "2026-08-25",
+      "level": 0
     },
     {
       "date": "2025-08-27",
