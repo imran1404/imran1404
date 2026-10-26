@@ -2,100 +2,149 @@
      viewBox="0 0 1000 300"
      xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
+  <title>E-Commerce Cart Abandonment Analytics</title>
+  <desc>
+    An interactive-style project banner showcasing e-commerce cart
+    abandonment analytics, customer behavior, conversion optimization,
+    and revenue recovery.
+  </desc>
 
+  <defs>
     <!-- Background -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#140A0D"/>
+      <stop offset="55%" stop-color="#110C12"/>
+      <stop offset="100%" stop-color="#1A080D"/>
     </linearGradient>
 
-    <!-- Red cinematic line -->
+    <!-- Red accent -->
     <linearGradient id="redLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7A1F2B"/>
-      <stop offset="50%" stop-color="#E63946"/>
+      <stop offset="50%" stop-color="#FF3347"/>
       <stop offset="100%" stop-color="#7A1F2B"/>
     </linearGradient>
 
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <!-- Accent glow -->
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Clip -->
-    <clipPath id="clip">
-      <rect x="4" y="4"
-            width="992"
-            height="292"
-            rx="22"/>
-    </clipPath>
+    <!-- Soft background glow -->
+    <radialGradient id="ambientGlow">
+      <stop offset="0%" stop-color="#7A1F2B" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7A1F2B" stop-opacity="0"/>
+    </radialGradient>
 
+    <!-- Rounded banner clipping -->
+    <clipPath id="bannerClip">
+      <rect x="4" y="4" width="992" height="292" rx="22"/>
+    </clipPath>
   </defs>
 
-<g class="finsight-pop">
-     
-  <!-- ================================================= -->
-  <!-- BACKGROUND                                        -->
-  <!-- ================================================= -->
+  <!-- ================================================== -->
+  <!-- BACKGROUND                                         -->
+  <!-- ================================================== -->
 
-  <rect x="4" y="4"
-        width="992"
-        height="292"
-        rx="22"
-        fill="url(#bg)"
+  <g clip-path="url(#bannerClip)">
+
+    <rect width="1000" height="300" fill="url(#bg)"/>
+
+    <!-- Ambient accent -->
+    <ellipse cx="900" cy="30" rx="220" ry="180"
+             fill="url(#ambientGlow)"/>
+
+    <!-- Decorative technical lines -->
+    <path d="M 800 0 L 1000 200"
+          stroke="#E63946"
+          stroke-opacity="0.06"
+          stroke-width="1"/>
+
+    <path d="M 850 0 L 1000 150"
+          stroke="#E63946"
+          stroke-opacity="0.05"
+          stroke-width="1"/>
+
+    <!-- Background grid -->
+    <path d="M 700 45 H 960
+             M 700 55 H 960
+             M 700 65 H 960"
+          stroke="#30363D"
+          stroke-opacity="0.22"
+          stroke-width="1"/>
+
+    <!-- Top accent line -->
+    <rect x="55" y="28" width="890" height="2"
+          fill="url(#redLine)"
+          opacity="0">
+
+      <animate attributeName="opacity"
+               from="0" to="1"
+               dur="0.8s"
+               begin="0.1s"
+               fill="freeze"/>
+    </rect>
+
+    <!-- Decorative cart symbol -->
+    <g transform="translate(870,82)"
+       opacity="0.16"
+       stroke="#FF3347"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       fill="none">
+
+      <path d="M -32 -22 H -23 L -14 12 H 20 L 30 -12 H -17"/>
+
+      <circle cx="-9" cy="25" r="4"/>
+      <circle cx="17" cy="25" r="4"/>
+
+      <path d="M -8 -2 H 21"/>
+      <path d="M -5 6 H 24"/>
+    </g>
+
+    <!-- Right-side decorative rings -->
+    <circle cx="925" cy="230" r="68"
+            fill="none"
+            stroke="#E63946"
+            stroke-opacity="0.07"/>
+
+    <circle cx="925" cy="230" r="48"
+            fill="none"
+            stroke="#E63946"
+            stroke-opacity="0.06"/>
+
+  </g>
+
+  <!-- Outer border -->
+  <rect x="4" y="4" width="992" height="292" rx="22"
+        fill="none"
         stroke="#30363D"
         stroke-width="1"/>
 
-
-  <!-- ================================================= -->
-  <!-- CINEMATIC TOP LINE                                -->
-  <!-- ================================================= -->
-
-  <rect x="55" y="28"
-        width="890"
-        height="2"
-        fill="url(#redLine)"
-        opacity="0">
-
-    <animate attributeName="opacity"
-             from="0"
-             to="1"
-             dur="0.8s"
-             begin="0.1s"
-             fill="freeze"/>
-
-  </rect>
-
-
-  <!-- ================================================= -->
+  <!-- ================================================== -->
   <!-- STATUS                                             -->
-  <!-- ================================================= -->
+  <!-- ================================================== -->
 
   <g opacity="0">
 
-    <circle cx="75"
-            cy="68"
-            r="6"
+    <circle cx="75" cy="68" r="6"
             fill="#2EA043"
-            filter="url(#glow)"/>
+            filter="url(#redGlow)"/>
 
-    <text x="92"
-          y="74"
+    <text x="92" y="74"
           fill="#8B949E"
           font-family="Arial, Helvetica, sans-serif"
-          font-size="16"
+          font-size="15"
           letter-spacing="2">
       CURRENTLY BUILDING
     </text>
 
-    <!-- Fade + entrance -->
     <animate attributeName="opacity"
-             from="0"
-             to="1"
+             from="0" to="1"
              dur="0.7s"
              begin="0.2s"
              fill="freeze"/>
@@ -103,7 +152,7 @@
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 20"
+      from="0 15"
       to="0 0"
       dur="0.7s"
       begin="0.2s"
@@ -111,62 +160,25 @@
 
   </g>
 
-
-  <!-- ================================================= -->
+  <!-- ================================================== -->
   <!-- MAIN TITLE                                         -->
-  <!-- ================================================= -->
+  <!-- ================================================== -->
 
   <g opacity="0">
 
-    <text x="55"
-          y="135"
+    <text x="55" y="128"
           fill="#F0F6FC"
           font-family="Arial, Helvetica, sans-serif"
-          font-size="46"
-          font-weight="700">
-      FINSIGHT
+          font-size="37"
+          font-weight="700"
+          letter-spacing="-0.5">
+      CART ABANDONMENT
     </text>
 
     <animate attributeName="opacity"
-             from="0"
-             to="1"
+             from="0" to="1"
              dur="0.8s"
-             begin="0.45s"
-             fill="freeze"/>
-
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="0 30"
-      to="0 0"
-      dur="0.8s"
-      begin="0.45s"
-      fill="freeze"/>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- SUBTITLE                                           -->
-  <!-- ================================================= -->
-
-  <g opacity="0">
-
-    <text x="55"
-          y="168"
-          fill="#E63946"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="18"
-          font-weight="600"
-          letter-spacing="1">
-      FINANCIAL ANALYTICS PLATFORM
-    </text>
-
-    <animate attributeName="opacity"
-             from="0"
-             to="1"
-             dur="0.7s"
-             begin="0.7s"
+             begin="0.4s"
              fill="freeze"/>
 
     <animateTransform
@@ -174,200 +186,202 @@
       type="translate"
       from="0 20"
       to="0 0"
-      dur="0.7s"
-      begin="0.7s"
+      dur="0.8s"
+      begin="0.4s"
       fill="freeze"/>
 
   </g>
 
-
-  <!-- ================================================= -->
-  <!-- DESCRIPTION                                        -->
-  <!-- ================================================= -->
+  <!-- ================================================== -->
+  <!-- SUBTITLE                                           -->
+  <!-- ================================================== -->
 
   <g opacity="0">
 
-    <text x="55"
-          y="205"
-          fill="#8B949E"
+    <text x="55" y="163"
+          fill="#FF3347"
           font-family="Arial, Helvetica, sans-serif"
-          font-size="15">
-      Banking analytics • Customers • Loans • Cards • Transactions
+          font-size="17"
+          font-weight="700"
+          letter-spacing="1">
+      E-COMMERCE ANALYTICS
     </text>
 
     <animate attributeName="opacity"
-             from="0"
-             to="1"
+             from="0" to="1"
              dur="0.7s"
-             begin="0.9s"
+             begin="0.65s"
              fill="freeze"/>
 
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 15"
+      from="0 12"
       to="0 0"
       dur="0.7s"
-      begin="0.9s"
+      begin="0.65s"
       fill="freeze"/>
 
   </g>
 
+  <!-- ================================================== -->
+  <!-- PROJECT DESCRIPTION                                -->
+  <!-- ================================================== -->
 
-  <!-- ================================================= -->
-  <!-- TECHNOLOGY CHIPS                                  -->
-  <!-- ================================================= -->
+  <g opacity="0">
+
+    <text x="55" y="198"
+          fill="#8B949E"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="14">
+      Shopping Behavior • Conversion Rates • Revenue Recovery
+    </text>
+
+    <animate attributeName="opacity"
+             from="0" to="1"
+             dur="0.7s"
+             begin="0.85s"
+             fill="freeze"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 10"
+      to="0 0"
+      dur="0.7s"
+      begin="0.85s"
+      fill="freeze"/>
+
+  </g>
+
+  <!-- ================================================== -->
+  <!-- TECHNOLOGY CHIPS                                   -->
+  <!-- ================================================== -->
 
   <g opacity="0">
 
     <!-- SQL -->
-    <rect x="55"
-          y="230"
-          width="65"
-          height="30"
-          rx="15"
+    <rect x="55" y="225"
+          width="65" height="30" rx="15"
           fill="#161B22"
           stroke="#30363D"/>
 
-    <text x="87"
-          y="250"
+    <text x="87.5" y="244.5"
           text-anchor="middle"
           fill="#F0F6FC"
           font-family="Arial, Helvetica, sans-serif"
           font-size="12"
-          font-weight="600">
+          font-weight="700">
       SQL
     </text>
 
-
     <!-- Python -->
-    <rect x="130"
-          y="230"
-          width="80"
-          height="30"
-          rx="15"
+    <rect x="130" y="225"
+          width="80" height="30" rx="15"
           fill="#161B22"
           stroke="#30363D"/>
 
-    <text x="170"
-          y="250"
+    <text x="170" y="244.5"
           text-anchor="middle"
           fill="#F0F6FC"
           font-family="Arial, Helvetica, sans-serif"
           font-size="12"
-          font-weight="600">
+          font-weight="700">
       PYTHON
     </text>
 
-
     <!-- Power BI -->
-    <rect x="220"
-          y="230"
-          width="90"
-          height="30"
-          rx="15"
+    <rect x="220" y="225"
+          width="90" height="30" rx="15"
           fill="#161B22"
           stroke="#30363D"/>
 
-    <text x="265"
-          y="250"
+    <text x="265" y="244.5"
           text-anchor="middle"
           fill="#F0F6FC"
           font-family="Arial, Helvetica, sans-serif"
           font-size="12"
-          font-weight="600">
+          font-weight="700">
       POWER BI
     </text>
 
-
     <animate attributeName="opacity"
-             from="0"
-             to="1"
+             from="0" to="1"
              dur="0.7s"
-             begin="1.1s"
+             begin="1s"
              fill="freeze"/>
 
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="0 15"
+      from="0 10"
       to="0 0"
       dur="0.7s"
-      begin="1.1s"
+      begin="1s"
       fill="freeze"/>
 
   </g>
 
-
-  <!-- ================================================= -->
+  <!-- ================================================== -->
   <!-- RIGHT PANEL                                        -->
-  <!-- ================================================= -->
+  <!-- ================================================== -->
 
   <g opacity="0">
 
-    <!-- Divider -->
-    <line x1="670"
-          y1="65"
-          x2="670"
-          y2="245"
+    <!-- Vertical divider -->
+    <line x1="670" y1="65"
+          x2="670" y2="245"
           stroke="#30363D"/>
 
-
-    <!-- Status label -->
-    <text x="715"
-          y="105"
+    <!-- Project status -->
+    <text x="710" y="105"
           fill="#8B949E"
           font-family="Arial, Helvetica, sans-serif"
-          font-size="13"
-          letter-spacing="1">
+          font-size="12"
+          letter-spacing="1.5">
       PROJECT STATUS
     </text>
 
-
-    <!-- Development status -->
-    <text x="715"
-          y="140"
-          fill="#E63946"
+    <text x="710" y="139"
+          fill="#FF3347"
           font-family="Arial, Helvetica, sans-serif"
-          font-size="24"
+          font-size="21"
           font-weight="700">
       IN DEVELOPMENT
     </text>
 
-
-    <!-- Description -->
-    <text x="715"
-          y="177"
+    <!-- Focus -->
+    <text x="710" y="176"
           fill="#8B949E"
           font-family="Arial, Helvetica, sans-serif"
           font-size="14">
-      Building analytics
+      Understanding why shoppers
     </text>
 
-    <text x="715"
-          y="198"
+    <text x="710" y="197"
           fill="#8B949E"
           font-family="Arial, Helvetica, sans-serif"
           font-size="14">
-      for financial decision-making
+      abandon their shopping carts
     </text>
 
+    <!-- Clickable project link -->
+    <a href="https://github.com/imran1404/ecommerce-cart-abandonment-analytics"
+       target="_blank">
 
-    <!-- CTA -->
-    <text x="715"
-          y="238"
-          fill="#F0F6FC"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="14"
-          font-weight="600">
-      → EXPLORE PROJECT
-    </text>
+      <text x="710" y="237"
+            fill="#F0F6FC"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="14"
+            font-weight="700">
+        → EXPLORE PROJECT
+      </text>
 
+    </a>
 
-    <!-- Right panel entrance -->
+    <!-- Entrance animation -->
     <animate attributeName="opacity"
-             from="0"
-             to="1"
+             from="0" to="1"
              dur="0.8s"
              begin="0.6s"
              fill="freeze"/>
@@ -375,7 +389,7 @@
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="30 0"
+      from="20 0"
       to="0 0"
       dur="0.8s"
       begin="0.6s"
@@ -383,25 +397,55 @@
 
   </g>
 
+  <!-- ================================================== -->
+  <!-- BOTTOM ACCENT                                      -->
+  <!-- ================================================== -->
 
-  <!-- ================================================= -->
-  <!-- FINAL RED LINE                                     -->
-  <!-- ================================================= -->
-
-  <rect x="55"
-        y="276"
+  <rect x="55" y="276"
         width="890"
         height="1"
-        fill="#7A1F2B"
+        fill="url(#redLine)"
         opacity="0">
 
     <animate attributeName="opacity"
-             from="0"
-             to="0.7"
+             from="0" to="0.8"
+             dur="0.6s"
+             begin="1.2s"
+             fill="freeze"/>
+  </rect>
+
+  <!-- ================================================== -->
+  <!-- BOTTOM STATUS                                      -->
+  <!-- ================================================== -->
+
+  <g opacity="0">
+
+    <circle cx="68" cy="282" r="2.5"
+            fill="#2EA043"/>
+
+    <text x="78" y="286"
+          fill="#8B949E"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="8"
+          letter-spacing="1">
+      DATA • BEHAVIOR • INSIGHTS
+    </text>
+
+    <text x="945" y="286"
+          text-anchor="end"
+          fill="#8B949E"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="8"
+          letter-spacing="1">
+      PROJECT 02
+    </text>
+
+    <animate attributeName="opacity"
+             from="0" to="1"
              dur="0.6s"
              begin="1.3s"
              fill="freeze"/>
 
-  </rect>
-</g>
+  </g>
+
 </svg>
