@@ -16,14 +16,19 @@
 
 <br>
 
+<br>
+
 <p align="center">
-  <a href="https://github.com/imran1404/finsight-financial-analytics">
+  <a href="https://github.com/imran1404/ecommerce-cart-abandonment-analytics">
     <img
       src="https://raw.githubusercontent.com/imran1404/imran1404/main/assets/finsight-ongoing.svg"
       width="100%"
-      alt="Currently Building — FinSight Financial Analytics">
+      alt="Currently Building — E-Commerce Cart Abandonment Analytics"
+    >
   </a>
 </p>
+
+<br>
 
 <br>
 
